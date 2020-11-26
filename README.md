@@ -15,14 +15,15 @@ If you have and use a package manager (such as apt-get, dnf, homebrew, yum, choc
 If your package manager does not have a recent "MkDocs" package, you can still use your package manager to install "Python" and "pip". Then you can use pip to install MkDocs.
 
 Next you will need to install the material theme and pdf plugin
-
+```
 pip install mkdocs-material
 pip install mkdocs-pdf-export-plugin
+```
 
 Clone the repo to your drive.  Go to the root folder of the repo and run:
-
+```
 mkdocs serve
-
+```
 View the webpages at:
 
 http://127.0.0.1:8000/
