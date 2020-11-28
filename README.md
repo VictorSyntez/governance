@@ -1,5 +1,6 @@
 # Canadian Credential Network Governance Framework
 
+Hello
 This repo contains the content resources for the management of the Canadian Credential Network (CanaCred) Governance Framework along with the tools necessary to generate two renderings (printed, online) of the CanaCred-GF documents.
 
 ## Contents
