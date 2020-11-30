@@ -1,7 +1,7 @@
 Not for Profit organization
 A non-profit corporation is a legal entity separate from its members and directors formed for purposes other than generating a profit to be distributed to its members, directors or officers. While, a non-profit corporation can earn a profit, the profit must be used to further the goals of the corporation rather than to pay dividends to its membership.
 
-![not_for_profit_structure](../img/notforprofitstructure.png)
+![not_for_profit_structure](../img/non-profit-orgchart-template-two.png)
 
 Identity Utility Networks have specific income and expense characteristics that are addressed by the principles, polices and procedures outlined in their governance frameworks.
 
