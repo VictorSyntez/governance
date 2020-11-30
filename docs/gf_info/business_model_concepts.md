@@ -8,7 +8,11 @@ Identity Utility Networks have specific income and expense characteristics that 
 | Expenses | Income |
 | --- | --- |
 | 1. Node Hosting | 4. Consortium Membership  |
+<<<<<<< HEAD
 |2. Network Operation and Maintenance Services | 5. Community Donations |
+=======
+| 2. Network Operation and Maintenance Services | 5. Community Donations |
+>>>>>>> 51af775e9b02618c2ff697b095ae9857024e4966
 | 3. Consortium Governance | 6. Transaction Revenue |
 
 ## Utility Operations
