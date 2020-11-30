@@ -1,6 +1,7 @@
-When a consortium of organizations such as those associated with the Bedrock Business Utility come together to operate a public identity utility there are several factors that need to be considered with respect to a sustainable business model.
+Not for Profit organization
+A non-profit corporation is a legal entity separate from its members and directors formed for purposes other than generating a profit to be distributed to its members, directors or officers. While, a non-profit corporation can earn a profit, the profit must be used to further the goals of the corporation rather than to pay dividends to its membership.
 
-![biz_model_topics](../img/biz_model_topics.png)
+![not_for_profit_structure](../img/notforprofitstructure.png)
 
 Identity Utility Networks have specific income and expense characteristics that are addressed by the principles, polices and procedures outlined in their governance frameworks.
 
@@ -24,8 +25,8 @@ Some governing bodies may place diversity requirements on node owners. These req
 * Number of nodes running on the [IaaS](https://en.wikipedia.org/wiki/Infrastructure_as_a_service)
 * Number of nodes hosted by the same hosting provider
 
-#### BBU Perspective
-Any member of the Bedrock Business Utility that is [required  to host a utility infrastructure node](https://bedrock-consortium.github.io/bbu-gf/gf_info/membership/#membership-types) is considered a Steward and is responsible for the financial demands of hosting a node.  Such expenditures are considered out-of-pocket expenses and are not related to the members annual membership obligations. However, the BBU-GF does recognize the infrastructure contributions of Stewards and MUST adjust membership fees accordingly.
+#### CCNU Perspective
+Any member of the Canadian Credential Network Utility that is [required  to host a utility infrastructure node](https://bedrock-consortium.github.io/bbu-gf/gf_info/membership/#membership-types) is considered a Steward and is responsible for the financial demands of hosting a node.  Such expenditures are considered out-of-pocket expenses and are not related to the members annual membership obligations. However, the BBU-GF does recognize the infrastructure contributions of Stewards and MUST adjust membership fees accordingly.
 
 Stewards MUST adhere to the [Member Technical and Organizational Policies](../gf_controlled/member_top.md) set forth in the Controlled Documents of the BBU-GF.
 
