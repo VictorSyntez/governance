@@ -3,11 +3,11 @@
 The **Canadian Credential Network** ("Canacred") is a project of the group of volunteers that share a common interest in collaborating on the delivery of the infrastructure and governance necessary for a dedicated and trusted public identity utility based on decentralized identity technology. The utility is intended to reliably serve the verifiability of both physical and online digital identity interactions. The Canacred is focused on the governance of a dedicated decentralized identity utility for the exchange fo trusted data. The Canacred represents a formal Trust Community consisting of participating members that adhere to the *Canadian Credential Network Utility Governance Framework* ("CCNU-GF").
 
 ### Legal Entity Structure
-```
+<!--
 The [Linux Foundation](https://www.linuxfoundation.org/) (the “LF”) is dedicated to building sustainable ecosystems around open source projects to accelerate technology development and industry adoption. It provides support for open source communities through financial and intellectual resources, infrastructure, services, events, and training. The LF also provides a proven legal structure for the establishment of open source projects as non-profit legal entities for members.
 
 ![lf_legal_entity_structure](../img/lf_legal_entity_structure.png)
-```
+--->
 
 Activity Type | Entity Name | Legal Structure | Purpose |
 | --- | --- | --- | --- |
