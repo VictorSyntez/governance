@@ -1,19 +1,19 @@
-### Bedrock Business Consortium
+### Canadian Credential Network
 
-#### Contact Board of Directors
+#### Contact us
 
-Email bod@bbu.sovrin.org
+Email dave@canacred.ca
 
 >NOTE: Need to setup emails and or Google Groups/Forums
 
 #### Contact Governance Framework Working Group
 
-Email bbugf-wg@bbu.sovrin.org
+Email dave@canacred.ca
 
 #### Contact Identity Utility Administrator
 
-The Sovrin Foundation is the provider of administrative services to the Bedrock Business Consortium. Our Network Administrator is:
+The ______ is the provider of administrative services to the Canadian Credential Network. Our Network Administrator is:
 
 | Name | Email | Phone |
 | --- | --- | --- |
-| xxxxx | sovadmin@bbu.sovrin.org | 999-999-9999 |
+| xxxxx |  | 999-999-9999 |
