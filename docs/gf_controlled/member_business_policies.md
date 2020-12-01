@@ -1,6 +1,6 @@
 # Steward Business Policies
 
-This is a Controlled Document of the Bedrock Governance Framework was approved by the Canadian Credential Network Board of Directors.
+This is a Controlled Document of the Canadian Credential Network Governance Framework was approved by the Canadian Credential Network Board of Directors.
 
 | Document Name | Steward Business Policies |
 | --- | --- |
@@ -8,7 +8,7 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
 | Governs | Steward Qualification, Application, Activation, Operation, Notification, Suspension, Termination, and Transition |
-| Governed By | Bedrock Governance Framework Work Group |
+| Governed By | Canadian Credential Network Governance Framework Work Group |
 
 ## 1. Member Qualification
 See [Issue 21](https://github.com/bedrock-consortium/bbu-gf/issues/21) for review.
