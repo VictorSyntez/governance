@@ -1,14 +1,14 @@
 ## Ledger Data Policies
 
-This is a Controlled Document of the Bedrock Governance Framework was approved by the Canadian Credential Network Board of Directors.
+This is a Controlled Document of the Canadian Credential Network Governance Framework was approved by the Canadian Credential Network Board of Directors.
 
-| Document Name |Bedrock Ledger Transaction Data |
+| Document Name |Canadian Credential Network Ledger Transaction Data |
 | --- | --- |
 | Version | v0.9 |
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
 | Governs | Data and metadata processed by Nodes operated by Stewards in the course of completing a Transaction with the Canadian Credential Network Utility. |
-| Governed By | Bedrock Technical Steering Committee |
+| Governed By | Canadian Credential Network Technical Steering Committee |
 
 
 ## Ledger
