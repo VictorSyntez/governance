@@ -23,7 +23,7 @@ This document lists all official governing bodies of the Canadian Credential Net
 4. Unless otherwise noted, membership in any governing body is limited to Canadian Credential Network Members in good standing.
 
 ## Governing Board
-The Canadian Credential Network Governing Board is the overall governing body of the Canadian Credential Network Foundation. It is chartered by the Bedrock Business Utility Fund as stated in the Participation Agreement. The Governing Board is composed of ```Governing Members``` who have the obligation to represent the interests of the Identity Owners of the Canadian Credential Network Community.
+The Canadian Credential Network Governing Board is the overall governing body of the Canadian Credential Network Foundation. It is chartered by the Canadian Credential Network Utility Fund as stated in the Participation Agreement. The Governing Board is composed of ```Governing Members``` who have the obligation to represent the interests of the Identity Owners of the Canadian Credential Network Community.
 
 * **Charter Location**: [Participation Agreement (MS-WORD)](./contracts/bbu_participation_agreement.docx)
 * **Suggested Participant Skills**: The strategic thinking leaders that have some degree of technical and business problem solving skills. People management and contract negotiation experience is a plus. A passion for understanding public identity utilities and a stakeholder in the success of an interoperable digital trust marketplace.

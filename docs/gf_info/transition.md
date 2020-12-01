@@ -14,7 +14,7 @@ The Sovrin Community is comprised of minimally two disparate market segments. Bo
 To counter the pendulum bob swinging so far to the left, we have witnessed proposals for alternative proprietary solutions that reflect an unacceptable swing of the bob to the right. This oscillation between extremes depicts an opportunity to steer the pendulum bob to a center position that would allow institutions to strike a balance between open privacy by design and financial risks.  
 
 ## Reality Check
-In the Autumn of 2019, early prospective members of the Canadian Credential Network responded to this quest to bring the pendulum bob back to center.  The result was the formation of the Bedrock Business Utility which was intended to address three key concerns:
+In the Autumn of 2019, early prospective members of the Canadian Credential Network responded to this quest to bring the pendulum bob back to center.  The result was the formation of the Canadian Credential Network Utility which was intended to address three key concerns:
 
 1.	Policy Gridlock
 2.	Permissioned Safe Zone

@@ -1,25 +1,24 @@
 The Industry working on a convergence of industry terms between several glossary efforts, namely:
 
-* [ToIP Glossary]()
-* DIF Glossary Working Group](https://dif.groups.io/g/glossary)
+* [PCTF Glossary Recommendation](https://diacc.ca/wp-content/uploads/2020/09/PCTF-Glossary-Final-Recommendation_V1.0.pdf)
 * [Sovrin Glossary](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8)
-* [NIST Glossary: A Taxonomic Approach to Understanding Emerging Blockchain Identity Management Systems (p50-51)](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.07092019-draft.pdf)
+* [TOIP Glossary]()
 
-The contents herein are considered additional terms specific to the **Bedrock Business Utility**.
+The contents herein are considered additional terms specific to the **Canadian Credential Network**.
 
->Note: See [BBU Issue 12](https://github.com/bedrock-consortium/bbu-gf/issues/12)
+>Note:
 
 ### Steward
 A general term for an organization that is responsible for providing and maintaining a portion of the infrastructure necessary to establish a public identity utility. Minimally, the organization must meet the requirements to be a member of the public identity utility and must operate at least one ```Node```.
 
 ### Node
-A computer network server running an instance of the code necessary to operate a distributed ledger or blockchain. In the Canadian Credential Network, a Node is operated by a Steward running an instance of the Bedrock Open Source Code to maintain the Bedrock Business Utility ( or DID Ledger). A Node must be either a Validator Node or an Observer Node.
+A computer network server running an instance of the code necessary to operate a distributed ledger or blockchain. In the Canadian Credential Network, a Node is operated by a Steward running an instance of the Canacred Open Source Code to maintain the Canacred Network Utility ( or DID Ledger). A Node must be either a Validator Node or an Observer Node.
 
-### Bedrock Open Source Code
-The computer software that is installed on all Nodes associated with the Bedrock Business Utility (BBU). This code determined by the Bedrock Board of Directors. The BBU adheres to code selection and version guidance provided by the Technical Steering Committee ("TSC") of the Bedrock Technical Project. The TSC collaborates within the Hyperledger Indy Project of the Linux Foundation to establish a TSC approved version of Hyperledger Indy within the the Bedrock Code Repository managed by the TSC.
+### Canacred Open Source Code
+The computer software that is installed on all Nodes associated with the Canacred Network Utility (CCNU). This code determined by the Canacred Board of Directors. The CCNU adheres to code selection and version guidance provided by the Technical Steering Committee ("TSC") of the Canacred Wallet Project. The TSC collaborates within the Hyperledger Indy Project of the Linux Foundation to establish a TSC approved version of Hyperledger Indy within the the Canacred Code Repository managed by the TSC.
 
-### Bedrock Ledger Environments
-The corpus of DID Ledgers used by the Canadian Credential Network to operate the Bedrock Business Utility. For example: ```prod```, ```test```, and ```dev```.
+### Canacred Ledger Environments
+The corpus of DID Ledgers used by the Canadian Credential Network to operate the Canacred Network Utility. For example: ```prod```, ```test```, and ```dev```.
 
 ### DID Namespace
 
@@ -82,7 +81,7 @@ A special Private Key used for purposes of recovering a Wallet after loss or com
 A Trustee trusted by another Identity Owner to authorize sharing back a Recovery Key for purposes of restoring a Wallet after loss or compromise.
 
 ### Membership Management System
-The means by which the Governing Board tracks membership entitlements and status. This MAY be implemented via a Salesforce tenant operated by the Linux Foundation with custom hooks into the Bedrock Business Utility.
+The means by which the Governing Board tracks membership entitlements and status. This MAY be implemented via a Salesforce tenant operated by the Linux Foundation with custom hooks into the Canacred Network Utility.
 
 ### Digital Trust Ecosystem
 An interdependent group of enterprises, people and/or things that share a standardized trust model for mutually beneficial purposes, such as consumer and commercial interactions that are verifiable.

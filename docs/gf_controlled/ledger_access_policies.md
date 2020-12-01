@@ -7,20 +7,20 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Version | v0.9 |
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
-| Governs | Policies for reading and writing to the Bedrock Business Utility|
+| Governs | Policies for reading and writing to the Canadian Credential Network Utility|
 | Governed By | Bedrock Governance Framework Workgroup |
 
 ## 1. Declaration of Intent
-The Bedrock Business Utility (the "Utility") will operate with limited write access as specified by the Permissioned Write Access processing section declared herein.
+The Canadian Credential Network Utility (the "Utility") will operate with limited write access as specified by the Permissioned Write Access processing section declared herein.
 
-The scope of these policies pertains to the full corpus of **Utility Environments**, namely all the ledgers associated with the Bedrock Business Utility (i.e.: prod, test, dev).
+The scope of these policies pertains to the full corpus of **Utility Environments**, namely all the ledgers associated with the Canadian Credential Network Utility (i.e.: prod, test, dev).
 
 ## 2. Recommended Reading
 The terms used in this Controlled Document are more fully explained in the [Glossary](../gf_info/glossary.md), as well as in the [Legal Architecture Overview](../gf_legal/legal_arch.md) which includes a visual diagram.
 
 One topic pertinent to ledger access is the concept of a [Tombstone](https://jira.hyperledger.org/browse/INDY-2082). A Steward MAY, for regulatory or individual business requirements, determine that it needs to forbid access to a ledger entry and therefore require the ability to mark the subject entry as "deleted". While the Canadian Credential Network has taken action to minimize such risk by prohibiting public write access, a *Tombstone* provides an added protection mechanism that will help mitigate risk for Stewards who are contractually obligated to carry out read and write transactions.
 
-**The Utility will allow for Tombstones once this feature is implemented in Hyperledger Indy**. The Canadian Credential Network will collaborate with the Hyperledger Indy Community and the [Bedrock Technical Project](https://github.com/bedrock-consortium/tsc/) (the "Technical Project") to allow a Steward to:
+**The Utility will allow for Tombstones once this feature is implemented in Hyperledger Indy**. The Canadian Credential Network will collaborate with the Hyperledger Indy Community and the [Canacred Wallet Project](https://github.com/bedrock-consortium/tsc/) (the "Wallet Project") to allow a Steward to:
 
 1. Mark a Transaction as "deleted" thereby suggesting it should no longer be returned in response to requests for read access.
 2. Declare a Transaction as "deleted" under one of two categories: *Node-Specific Tombstone* or a *Ledger-Wide Tombstone*.
@@ -29,7 +29,7 @@ Tombstones do not modify data on the ledger. Instead they impact the behavior of
 
 ### 1. Transaction Author Agreement
 1. The Canadian Credential Network MUST:
-	1. Publish a Transaction Author Agreement between a Transaction Author and the Canadian Credential Network (representing the Bedrock Business Utility as a whole) specifying the terms and conditions under which Transaction Authors agree to submit write Transactions to the Utility, including the policies defined in this Controlled Document.
+	1. Publish a Transaction Author Agreement between a Transaction Author and the Canadian Credential Network (representing the Canadian Credential Network Utility as a whole) specifying the terms and conditions under which Transaction Authors agree to submit write Transactions to the Utility, including the policies defined in this Controlled Document.
 	1. Publish a Steward Data Processing Agreement (DPA) specifying the requirements for a Steward to serve as a Data Processor on behalf of Transaction Authors as Data Controllers and the Canadian Credential Network as a Designated Data Controller.
 	1. When necessary, revise the Transaction Author Agreement and the Steward DPA under the same policies as a Controlled Document as specified in the ```Governance``` section of the Bedrock Governance Framework Master Document.
 	1. Maintain a published version of the Transaction Author Agreement and the Steward DPA in the [Canadian Credential Network Code Repository](https://github.com/bedrock-consortium/bbu-gf/).

@@ -1,12 +1,12 @@
 ## Introduction
-The Bedrock Business Utility (the "Utility") is governed by the Canadian Credential Network as a dedicated public-permissioned blockchain ledger. The nodes of this immutable Utility are hosted by a variety of business entities around the world, called Stewards. The Utility is intended to enable Transaction Authors (see below) to publish decentralized identifiers (DIDs) and other cryptographic data structures required for the issuance and verification of digital credentials.
+The Canadian Credential Network Utility (the "Utility") is governed by the Canadian Credential Network as a dedicated public-permissioned blockchain ledger. The nodes of this immutable Utility are hosted by a variety of business entities around the world, called Stewards. The Utility is intended to enable Transaction Authors (see below) to publish decentralized identifiers (DIDs) and other cryptographic data structures required for the issuance and verification of digital credentials.
 
 ![bbu-prj-org](../img/bbu-prj-org.png)
 
-The Utility is legally represented as three (3) distinct but related legal entities which are associated with a collection of contractual instruments. The *Bedrock Business Utility  Fund* (the “Directed Fund”), is a directed fund project of The Linux Foundation (the "LF").  The Directed Fund serves two purposes:
+The Utility is legally represented as three (3) distinct but related legal entities which are associated with a collection of contractual instruments. The *Canadian Credential Network Utility  Fund* (the “Directed Fund”), is a directed fund project of The Linux Foundation (the "LF").  The Directed Fund serves two purposes:
 
-1. Manage the operation and maintenance of the Bedrock Business Utility (“the Utility”), a LF Operational Project (a Delaware series limited liability company)
-2. Support for the Bedrock Technical Project, (the “Technical Project”), an open source project, a LF Network Project.
+1. Manage the operation and maintenance of the Canadian Credential Network Utility (“the Utility”), a LF Operational Project (a Delaware series limited liability company)
+2. Support for the Canacred Wallet Project, (the “Wallet Project”), an open source project, a LF Network Project.
 
 It is expected that the Utility will be used primarily by businesses who have a need to exchange trusted data such as digital credentials. The credentials themselves are never written to the Utility so issuers of these credentials ( *Transaction Authors*) have no need to write data to the Utility. This approach avoids issuers increasing risks associated with personal data under data protection regulations such as the EU General Data Protection Regulation (GDPR), the Canadian Personal Information Protection and Electronic Documents Act (PIPEDA), or the California Consumer Privacy Act (CCPA).
 
@@ -25,7 +25,7 @@ The following sections explain the actors, roles, policies, and legal agreements
 ## Actors & Roles
 
 ### Canadian Credential Network
-The Canadian Credential Network is an international non-profit public trust organization chartered to provide governance for the Bedrock Business Utility. Represented by the Governing Board of the Utility, the Consortium represents the *Designated Data Controller*. In this role, the Consortium is a broker between Transaction Authors, the *Primary Data Controller*, and other Utility actors.
+The Canadian Credential Network is an international non-profit public trust organization chartered to provide governance for the Canadian Credential Network Utility. Represented by the Governing Board of the Utility, the Consortium represents the *Designated Data Controller*. In this role, the Consortium is a broker between Transaction Authors, the *Primary Data Controller*, and other Utility actors.
 
 ### Consortium Members
 In order to participate in the Consortium as either a Steward, a Transaction Endorser or both; the desired participant MUST sign the Participation Agreement. This agreement allocates write access entitlements by membership level.

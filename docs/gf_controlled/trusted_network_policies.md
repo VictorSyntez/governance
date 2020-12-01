@@ -11,7 +11,7 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Governed By | Bedrock Governance Framework Work Group |
 
 ## Network Trust Perspective
-The Canadian Credential Network strives to establish and position ledgers, such as the Bedrock Business Utility, to be reliable and trusted ledgers for businesses seeking to perform decentralized identifier verification tasks. However, each entity operating in the roles of issuer or verifier MUST arrive at their own independent determination of a trusted identity network.
+The Canadian Credential Network strives to establish and position ledgers, such as the Canadian Credential Network Utility, to be reliable and trusted ledgers for businesses seeking to perform decentralized identifier verification tasks. However, each entity operating in the roles of issuer or verifier MUST arrive at their own independent determination of a trusted identity network.
 
 ## General Trust Policies
-The Governing Board for the Canadian Credential Network WILL work with the ToIP Ecosystem Foundry Working Group to help position the Bedrock Business Utility as a trusted utility for use by ecosystem projects.
+The Governing Board for the Canadian Credential Network WILL work with the ToIP Ecosystem Foundry Working Group to help position the Canadian Credential Network Utility as a trusted utility for use by ecosystem projects.

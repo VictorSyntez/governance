@@ -3,7 +3,7 @@ No single organization owns the CCNU.
 
 The Canadian Credential Network is a [Linux Foundation](https://www.linuxfoundation.org) project that supports the operation of the Canadain Credential Network Utility (the “Utility” or "CCNU"), an independent self-governed and self-sustainable public identity utility.
 
-The members of the Canadian Credential Network represent a collection of international private sector companies and other organizations that operate and manage the Utility.  The Canadian Credential Network, a directed fund of the Linux Foundation (“LF”), serves the purpose of raising, budgeting and spending funds in support of the Utility and the Bedrock Technical Project , which is tasked with the mission of supporting the technical needs of the  Utility.
+The members of the Canadian Credential Network represent a collection of international private sector companies and other organizations that operate and manage the Utility.  The Canadian Credential Network, a directed fund of the Linux Foundation (“LF”), serves the purpose of raising, budgeting and spending funds in support of the Utility and the Canacred Wallet Project , which is tasked with the mission of supporting the technical needs of the  Utility.
 
 LF Governance Networks, Inc., a Delaware non-profit corporation, supports the Utility by executing the various agreements relating to the management of, or transacting with, the Utility.
 
@@ -58,7 +58,7 @@ Membership rates will be determined by the selected membership level (e.g. Gover
 Any member of the Canadain Credential Network Utility that is required to host a utility infrastructure node is considered a Steward and is responsible for the financial demands of hosting a node. Such expenditures are considered out-of-pocket expenses and are not related to the members annual membership obligations. See [membership types](./gf_info/membership.md).
 
 ### What are the participation requirements for members with respect to working groups?
-Governing and Operational members will be required to assign participation of appropriately skilled resource(s) on as part of committees/working groups as well as the technical project. Subscribers are not required to fulfill such requirements. See [membership types](./gf_info/membership.md).
+Governing and Operational members will be required to assign participation of appropriately skilled resource(s) on as part of committees/working groups as well as the Wallet Project. Subscribers are not required to fulfill such requirements. See [membership types](./gf_info/membership.md).
 
 ### What is a financially incentive for a Steward to continue long-term participation?
 Each participating member will need to make an annual decision on the ROI of their investment.
