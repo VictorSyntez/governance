@@ -1,4 +1,4 @@
-The concepts outlined herein provide an informational synopsis for the operation of the Bedrock Business Utility and participation in the Canadian Credential Network. The executable [BBU Participation Agreement](../gf_legal/contracts/bbu_participation_agreement.docx) (the "Participation Agreement"), specifically ```Exhibit B``` and ```Exhibit C```, supersedes this content.
+The concepts outlined herein provide an informational synopsis for the operation of the Canadian Credential Network Utility and participation in the Canadian Credential Network. The executable [BBU Participation Agreement](../gf_legal/contracts/bbu_participation_agreement.docx) (the "Participation Agreement"), specifically ```Exhibit B``` and ```Exhibit C```, supersedes this content.
 
 ## Utility Infrastructure Requirements
 The Utility is an instance of a [ToIP Layer One Public Utility](https://github.com/hyperledger/aries-rfcs/tree/master/concepts/0289-toip-stack#layer-one-public-utilities-for-decentralized-identifiers-dids) based on [Hyperledger Indy](https://www.hyperledger.org/projects/hyperledger-indy) ("Indy"). In order to establish an operational budget for the Utility, several  infrastructure assumptions must be considered.
@@ -15,8 +15,8 @@ In order to efficiently operate the ledger associated with the Utility, a combin
 | --- | --- | --- |
 | Governing Board Seats | 7 | Minimum Governing Members. Governing Board seats can increase but MUST not exceed 15 |
 | Minimum Production Pool Size  | 19 | Considers production and Governing Board factors. |
-| Minimum Test Pool Size  | 3| Ledger used by Utility Service Provider and Technical Project contributors.  |
-| Minimum Development Pool Size | 3 | Ledger used by Utility Service Provider and Technical Project contributors.||
+| Minimum Test Pool Size  | 3| Ledger used by Utility Service Provider and Wallet Project contributors.  |
+| Minimum Development Pool Size | 3 | Ledger used by Utility Service Provider and Wallet Project contributors.||
 | Minimum Total Pool Size | 25 | Considers requirements across all environments. |
 
 ### Steward Population Dynamics
@@ -51,7 +51,7 @@ Private sector entities (businesses) can join and renew membership on an annual 
     * **Obligations**:
         1. MUST host one or more utility infrastructure *Validator Nodes* as defined in ```Exhibit C``` of the Participation Agreement.
         2. MUST sign the required Utility Agreements as set forth in ```Exhibit B``` of the Participation Agreement.
-        3. MUST assign appropriately skilled resources, as detailed in ```Exhibit B``` of the Participation Agreement, that will meet the required commitments for the Governing Board, the Committees, additional committees or working groups established by the Directed Fund in the future, and the Technical Project.
+        3. MUST assign appropriately skilled resources, as detailed in ```Exhibit B``` of the Participation Agreement, that will meet the required commitments for the Governing Board, the Committees, additional committees or working groups established by the Directed Fund in the future, and the Wallet Project.
     * **Entitlements**:
         1. MAY appoint a representative on the Governing Board, provided, however, that a Utility Service Provider may not appoint a representative to the Governing Board.
         2. MAY appoint a representative to any Committee, provided that a Utility Service Provider may not appoint a representative to the Finance Committee.
@@ -70,7 +70,7 @@ Private sector entities (businesses) can join and renew membership on an annual 
     * **Obligations**:
         1. MUST host one or more utility infrastructure *Validator Nodes* as defined in ```Exhibit C``` of the Participation Agreement.
         2. MUST sign the required Utility Agreements as set forth in ```Exhibit B``` of the Participation Agreement.
-        3. MUST assign appropriately skilled resources, as detailed in ```Exhibit B``` of the Participation Agreement, that will meet the required commitments of at least one Committee and the Technical Project.
+        3. MUST assign appropriately skilled resources, as detailed in ```Exhibit B``` of the Participation Agreement, that will meet the required commitments of at least one Committee and the Wallet Project.
     * **Entitlements**:
         1. MAY appoint a representative to any Committee.
         2. MAY act, pending signed Utility Agreements, as a Transaction Endorser.
@@ -88,7 +88,7 @@ Private sector entities (businesses) can join and renew membership on an annual 
 
 4. All Members are entitled to:
     1. Participate in Directed Fund general meetings, initiatives, events and any other activities; and
-    2. Identify themselves as members of the Bedrock Business Utility Fund supporting the Canadian Credential Network community.
+    2. Identify themselves as members of the Canadian Credential Network Utility Fund supporting the Canadian Credential Network community.
 
 ### Members and non-Members
 
@@ -102,4 +102,4 @@ Private sector entities (businesses) can join and renew membership on an annual 
     * **Entitlements**:
         1. Ability to use ledger for decentralized identity interactions.  
 
-2. Contributors to the Technical Project: Contributions to the Technical Project are made pursuant to the terms of the Technical Charter for the Technical Project.
+2. Contributors to the Wallet Project: Contributions to the Wallet Project are made pursuant to the terms of the Technical Charter for the Wallet Project.

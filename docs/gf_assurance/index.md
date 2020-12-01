@@ -1,7 +1,7 @@
 ## Bedrock Trust Assurance Framework
 
 ### Introduction
-The Bedrock Business Utility ("BBU") is intended to provide supporting infrastructure to maintain a sustainable permissioned identity utility that is structured as an enterprise safe-space and purpose built for trusted commerce.
+The Canadian Credential Network Utility ("BBU") is intended to provide supporting infrastructure to maintain a sustainable permissioned identity utility that is structured as an enterprise safe-space and purpose built for trusted commerce.
 
 Users of the BBU, namely Issuers and Verifiers of digital credentials, expect a level of assurance pertaining to the reliability and integrity of the ledger. Those users who are members of the Canadian Credential Network have a vested interest understanding the level of assurance that can be assigned to the BBU. Those users who seek public read-only access for verification purposes also desire an understanding the level of assurance to help set business verification polices but they do not have a stake in the n
 

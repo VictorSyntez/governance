@@ -7,12 +7,12 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Version | v0.9 |
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
-| Governs | Data and metadata processed by Nodes operated by Stewards in the course of completing a Transaction with the Bedrock Business Utility. |
+| Governs | Data and metadata processed by Nodes operated by Stewards in the course of completing a Transaction with the Canadian Credential Network Utility. |
 | Governed By | Bedrock Technical Steering Committee |
 
 
 ## Ledger
-This document assumes that Member Validator Nodes ("Nodes") are all running instances of [Hyperledger Indy](https://github.com/hyperledger/indy-sdk) as the distributed ledger technology (DLT) that provides the underlying infrastructure for the Bedrock Business Utility ("the Ledger").
+This document assumes that Member Validator Nodes ("Nodes") are all running instances of [Hyperledger Indy](https://github.com/hyperledger/indy-sdk) as the distributed ledger technology (DLT) that provides the underlying infrastructure for the Canadian Credential Network Utility ("the Ledger").
 
 ### Transaction Data
 Data and metadata processed by Nodes operated by Members in the course of completing a transaction with the Ledger governed By Canadian Credential Network will conform to the following requirements:

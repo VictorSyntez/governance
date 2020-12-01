@@ -1,6 +1,6 @@
 
 #----------------------------------------------------
-# Bedrock Business Utility Governance Framework: Build Process Options
+# Canadian Credential Network Utility Governance Framework: Build Process Options
 # Makefile
 #
 # setup: Prepares Python and MkDocs Environments
@@ -15,7 +15,7 @@
 .DEFAULT_GOAL: help
 
 help:
-	@echo "\nBedrock Business Utility Governance Framework: Build Process Options\n"
+	@echo "\nCanadian Credential Network Utility Governance Framework: Build Process Options\n"
 	@(grep -h "##" Makefile  | tail -7) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
 pages : ## Builds and pushes new Github Pages and generates PDF

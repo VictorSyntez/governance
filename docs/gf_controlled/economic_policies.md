@@ -35,4 +35,4 @@ The Canadian Credential Network MUST establish economic procedures that will ach
 ### Incentives
 The Canadian Credential Network MAY provision economic incentives designed to for the following purposes:
 
-1. To reward Developers, Agencies, or other community members to contribute to the Bedrock Open Source Code or to any other community asset of benefit to the Consortium, the Bedrock Business Utility or organizations such as the ToIP Foundation.
+1. To reward Developers, Agencies, or other community members to contribute to the Bedrock Open Source Code or to any other community asset of benefit to the Consortium, the Canadian Credential Network Utility or organizations such as the ToIP Foundation.
