@@ -8,7 +8,7 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
 | Governs | Policies for reading and writing to the Canadian Credential Network Utility|
-| Governed By | Bedrock Governance Framework Workgroup |
+| Governed By | Canadian Credential Network Governance Framework Workgroup |
 
 ## 1. Declaration of Intent
 The Canadian Credential Network Utility (the "Utility") will operate with limited write access as specified by the Permissioned Write Access processing section declared herein.
@@ -31,7 +31,7 @@ Tombstones do not modify data on the ledger. Instead they impact the behavior of
 1. The Canadian Credential Network MUST:
 	1. Publish a Transaction Author Agreement between a Transaction Author and the Canadian Credential Network (representing the Canadian Credential Network Utility as a whole) specifying the terms and conditions under which Transaction Authors agree to submit write Transactions to the Utility, including the policies defined in this Controlled Document.
 	1. Publish a Steward Data Processing Agreement (DPA) specifying the requirements for a Steward to serve as a Data Processor on behalf of Transaction Authors as Data Controllers and the Canadian Credential Network as a Designated Data Controller.
-	1. When necessary, revise the Transaction Author Agreement and the Steward DPA under the same policies as a Controlled Document as specified in the ```Governance``` section of the Bedrock Governance Framework Master Document.
+	1. When necessary, revise the Transaction Author Agreement and the Steward DPA under the same policies as a Controlled Document as specified in the ```Governance``` section of the Canadian Credential Network Governance Framework Master Document.
 	1. Maintain a published version of the Transaction Author Agreement and the Steward DPA in the [Canadian Credential Network Code Repository](https://github.com/bedrock-consortium/bbu-gf/).
 2. A Transaction Author MUST agree not to submit Transactions that contain:
 	1. Data that would violate the intellectual property rights of others.
@@ -43,7 +43,7 @@ Tombstones do not modify data on the ledger. Instead they impact the behavior of
 1. The Canadian Credential Network MUST:
 	1. Publish a Transaction Endorser Agreement between the Transaction Endorser and the Canadian Credential Network specifying the terms and conditions under which Transaction Endorsers agree to write Transactions to the Utility, including the policies defined in this Controlled Document.
 	1. Publish a Transaction Endorser Data Processing Agreement (DPA) specifying the requirements for a Transaction Endorser to serve as a Data Processor on behalf of Transaction Authors as Data Controllers and the Canadian Credential Network as a Designated Data Controller.
-	1. When necessary, revise the Transaction Endorser Agreement and the Transaction Endorser DPA under the same policies as a Controlled Document as specified in the ```Governance``` section of the Bedrock Governance Framework Master Document.
+	1. When necessary, revise the Transaction Endorser Agreement and the Transaction Endorser DPA under the same policies as a Controlled Document as specified in the ```Governance``` section of the Canadian Credential Network Governance Framework Master Document.
 	1. Publish the current version of the Transaction Endorser Agreement and the Transaction Endorser DPA in the [Canadian Credential Network Code Repository](https://github.com/bedrock-consortium/bbu-gf/).
 2. A Transaction Endorser MUST adhere to membership entitlements that constrain the number of transactions that may be submitted as specified in the Transaction Endorser Agreement.
 3. A Transaction Endorser MUST:
