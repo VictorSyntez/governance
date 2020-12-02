@@ -1,6 +1,6 @@
 ## Economic Policies
 
-This is a Controlled Document of the Bedrock Governance Framework was approved by the Canadian Credential Network Board of Directors.
+This is a Controlled Document of the Canacred Governance Framework was approved by the Canadian Credential Network Board of Directors.
 
 | Document Name | Economic Policies |
 | --- | --- |
