@@ -1,6 +1,6 @@
 ## Ecosystem of Trust
 
-This is a Controlled Document of the Bedrock Governance Framework was approved by the Canadian Credential Network Board of Directors.
+This is a Controlled Document of the Canacred Governance Framework was approved by the Canadian Credential Network Board of Directors.
 
 | Document Name | Trusted Network Policies |
 | --- | --- |
@@ -8,7 +8,7 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
 | Governs |General Trust Policies  |
-| Governed By | Bedrock Governance Framework Work Group |
+| Governed By | Canacred Governance Framework Work Group |
 
 ## Network Trust Perspective
 The Canadian Credential Network strives to establish and position ledgers, such as the Canadian Credential Network Utility, to be reliable and trusted ledgers for businesses seeking to perform decentralized identifier verification tasks. However, each entity operating in the roles of issuer or verifier MUST arrive at their own independent determination of a trusted identity network.
