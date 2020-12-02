@@ -1,4 +1,5 @@
-The Industry working on a convergence of industry terms between several glossary efforts, namely:
+# Glossary 
+The Canadian Credential Network is working on a convergence of industry terms between several glossary efforts, namely:
 
 * [PCTF Glossary Recommendation](https://diacc.ca/wp-content/uploads/2020/09/PCTF-Glossary-Final-Recommendation_V1.0.pdf)
 * [Sovrin Glossary](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGMLFXr19x1uoZsruUe_0glHst2fZ8)
@@ -7,6 +8,15 @@ The Industry working on a convergence of industry terms between several glossary
 The contents herein are considered additional terms specific to the **Canadian Credential Network**.
 
 >Note:
+
+## Abstract from  PCTF Glossary**:
+The PCTF Glossary provides definitions and examples for terms that appear across DIACC PCTF documentation. The content of the PCTF Glossary is:
+1. **Terms**–The words or phrases that appear frequently and that are used with a specific intent (i.e., not their everyday English meaning) in the PCTF documentation
+2. **Definitions**–A statement that provides the accepted and precise meaning of the associated term in the PCTF context
+3. **Examples**–Examples or non-examples may be included to help clarify the intended meaning of a term; the examples provided are not intended to be an exhaustive list.
+4. **Synonyms**–Terms with same or similar meaning used in other communities of interest
+
+## Abstract from Bedrock Business Utility Glossary
 
 ### Steward
 A general term for an organization that is responsible for providing and maintaining a portion of the infrastructure necessary to establish a public identity utility. Minimally, the organization must meet the requirements to be a member of the public identity utility and must operate at least one ```Node```.

@@ -4,23 +4,29 @@ site_dir: 'html'
 
 nav:
 - Informational:
-    - 'Overview': 'index.md'
-    - 'Consortium': 'gf_info/consortium.md'
-    - 'Motivation': 'gf_info/transition.md'
-    - 'Membership': 'gf_info/membership.md'
+    - 'Introduction': 'index.md'
+    - 'Purpose': 'gf_info/purpose.md'
+    - 'Scope': 'gf_info/scope.md'
+    - 'Principles': 'gf_info/principles.md'
+    - 'Polices': 'gf_info/policies.md'
     - 'Business Model': 'gf_info/business_model_concepts.md'
-    - 'Pricing': 'gf_info/fee_schedule.md'
+    - 'Membership': 'gf_info/membership.md'
 - Constitutional:
     - 'Master Document': 'gf_info/masterdoc.md'
     - Controlled Documents:
         - 'Glossary': 'gf_info/glossary.md'
         - 'Governing Bodies': 'gf_controlled/governing_bodies.md'
         - 'Governing Body Policies': 'gf_controlled/governing_body_policies.md'
-        - Consortium Policies:
-            - 'Consortium Charter': 'gf_controlled/by_laws.md'
+        - Canacred Network Policies:
+            - 'Canacred Network Constitution': 'gf_controlled/constitution.md'
+            - 'Canacred Network Bylaws': 'gf_controlled/by_laws.md'
             - 'Economic Policies': 'gf_controlled/economic_policies.md'
             - 'Certification Mark Policies': 'gf_controlled/certification_mark_policies.md'
             - 'Trusted Network Polices': 'gf_controlled/trusted_network_policies.md'
+        -Canacred Network Rules:
+            - 'Canacred Network Governing Rules': 'gf_controlled/governing_rules.md'
+            - 'Canacred Network Business Rules': 'gf_controlled/business_rules.md'
+            - 'Canacred Network Technical Rules': 'gf_controlled/technical_rules.md'
         - Operating Policies:
             - 'Ledger Access Policies': 'gf_controlled/ledger_access_policies.md'
             - 'Ledger Data Policies': 'gf_controlled/ledger_data_polices.md'
