@@ -1,6 +1,6 @@
 ## Bedrock Trust Mark Policies
 
-This is a Controlled Document of the Bedrock Governance Framework was approved by the Canadian Credential Network Board of Directors.
+This is a Controlled Document of the Canacred Governance Framework was approved by the Canadian Credential Network Board of Directors.
 
 | Document Name | Transaction Endorser Business Policies |
 | --- | --- |
@@ -8,7 +8,7 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
 | Governs |Trust Marks |
-| Governed By | Bedrock Governance Framework Work Group |
+| Governed By | Canacred Governance Framework Work Group |
 
 
 

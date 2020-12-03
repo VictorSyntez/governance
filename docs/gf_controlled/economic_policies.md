@@ -1,6 +1,6 @@
 ## Economic Policies
 
-This is a Controlled Document of the Bedrock Governance Framework was approved by the Canadian Credential Network Board of Directors.
+This is a Controlled Document of the Canacred Governance Framework was approved by the Canadian Credential Network Board of Directors.
 
 | Document Name | Economic Policies |
 | --- | --- |
@@ -8,17 +8,17 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
 | Governs |Membership, Incentives |
-| Governed By | Bedrock Governance Framework Work Group |
+| Governed By | Canacred Governance Framework Work Group |
 
 ### Membership
 The Canadian Credential Network MUST establish economic procedures that will achieve the following:
 
 1. Procurement
     1. Collection of membership dues.
-    2. Sale and renewal of Subscription plans.
+    2. Sale and renewal of Subscription plans (REVIEW).
     3. Membership management and ledger transaction usage that track membership entitlements and status. See [Membership Management System](../gf_info/glossary.md).
 2. Currency
-    1. All income MUST be denominated in U.S. Dollars (USD).
+    1. All income MUST be denominated in Canadian Dollars (CAD).
 3. Publication
     1. All Canadian Credential Network subscription plan offerings SHOULD be publicly disclosed on the Canadian Credential Network website.
     2. The Canadian Credential Network SHOULD publish the current schedule of Membership Fees on the Canadian Credential Network website.
@@ -35,4 +35,4 @@ The Canadian Credential Network MUST establish economic procedures that will ach
 ### Incentives
 The Canadian Credential Network MAY provision economic incentives designed to for the following purposes:
 
-1. To reward Developers, Agencies, or other community members to contribute to the Bedrock Open Source Code or to any other community asset of benefit to the Consortium, the Canadian Credential Network Utility or organizations such as the ToIP Foundation.
+1. To reward Developers, Agencies, or other community members to contribute to the Canacred Open Source Code or to any other community asset of benefit to the Consortium, the Canadian Credential Network Utility or organizations such as the ToIP Foundation.

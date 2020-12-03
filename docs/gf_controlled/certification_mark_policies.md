@@ -1,4 +1,4 @@
-## Trust Marks
+## Trust Marks(review)
 Currently, the Canadian Credential Network has not approved the use of any Trust Marks. However, the Governing Board MAY in the future approve the use of one or more Trust Marks. If and when that occurs, the following topics SHOULD be considered by the Governing Board:
 
 1. The Consortium MAY publish the set of Trust Marks designated in this
