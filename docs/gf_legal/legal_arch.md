@@ -59,7 +59,7 @@ Under Public Write Access policies, the requirement of a Transaction Endorser si
 
 ### Primary Legal Agreements
 
-![legal-arch-doc-structure](../img/legal-arch-doc-structure.png)
+![Canacred Governance Framework](../img/ccnu_gh.png)
 
 #### Participation Agreement
 This is the contractual agreement between the Canadian Credential Network and all members. It has been developed by the Linux Foundation in support of Directed Fund projects. This agreement is the binding agreement for all members.
