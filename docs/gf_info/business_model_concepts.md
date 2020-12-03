@@ -44,7 +44,7 @@ The governing body of a public identity utility is responsible for hiring in-hou
 
 The [ToIP Foundation](http://trustoverip.org) recognizes the importance of the services of Utility Service Providers and has established a dedicated *Utility Foundry Working Group* to aid governing bodies in selection and hiring of such providers. For example, access to proven *request-for-proposal* (RFP) templates. Typically, a governing body would initiate a bidding process for an annual contract with the necessary service-level-agreements (SLAs).
 
-#### BBU Perspective
+#### CCNU Perspective
 The Governing Board of the Canadian Credential Network Utility with advice from the *Finance Committee* and *Technical Steering Committee* will hire personnel responsible for the operation and maintenance of the Utility.
 
 ### Consortium Governance
@@ -54,7 +54,7 @@ The development and maintenance of a governance framework complete with legal in
 
 The [ToIP Foundation](http://trustoverip.org) recognizes the complexity of this task and has established a dedicated *Utility Foundry Working Group* to provide templates for governance frameworks along with access to experienced service providers.
 
-#### BBU Perspective
+#### CCNU Perspective
 The Governing Board of the Canadian Credential Network Utility leverages the inexpensive volunteer services of its members to form a *Governance Framework Working Group* that is responsible for the task.
 
 ## Utility Revenue
@@ -64,7 +64,7 @@ The Governing Board of the Canadian Credential Network Utility leverages the ine
 #### General Concept
 A public identity utility serves the needs of interested stakeholders by allowing for both read and write transactions. While read transactions are generally publicly accessible and free, write transactions are typically fee-based. Governing bodies can treat write transactions as an entitlement of membership and charge members for participation in the Utility.
 
-#### BBU Perspective
+#### CCNU Perspective
 The Governing Board of the Canadian Credential Network Utility publishes a [fee schedule](./fee_schedule.md) for participation in the Utility. These fees are the only guaranteed source of income.
 
 ### Community Donations
@@ -72,7 +72,7 @@ The Governing Board of the Canadian Credential Network Utility publishes a [fee 
 #### General Concept
 Meeting budgetary requirements via subsidized donations is not a recommended business model. However, donations are always possible and often welcomed.
 
-#### BBU Perspective
+#### CCNU Perspective
 While the Governing Board of the Canadian Credential Network Utility MAY accept donations, such income is not an assumed source of income.
 
 ### Transaction Revenue
@@ -84,5 +84,5 @@ Users of a permissioned ledger, known as Transaction Authors, have a desire to s
 * Utility tax on endorsers who collect directly from Transaction Authors
 * Selling write entitlements to endorsers and/or Transaction Authors
 
-#### BBU Perspective
+#### CCNU Perspective
 The Canadian Credential Network Utility Governance Framework **does not** collect revenue from transaction fees. The exchange of payment (value) between the Transaction Endorser and a Transaction Author is *out-of-scope*. Transaction Endorsers are free to charge any fee they desire for access to their write transaction entitlements.
