@@ -22,7 +22,7 @@ Prospective members seeking qualification under a membership type that is assign
 1. A corporate member of The Linux Foundation.
 2. A business entity that is identifiable with at least one of the following business verification services:
 
-    1. [Verifiable Organizations Network (VON](https://vonx.io/)
+    1. [Verifiable Organizations Network (VON)](https://vonx.io/)
     2. [DUNS Number Lookup](https://www.dnb.com/duns-number/lookup.html) TBD
     3. [Legal Entity Identifier Lookup](https://search.gleif.org/#/search/) TBD
 
