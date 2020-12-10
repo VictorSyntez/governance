@@ -1,11 +1,11 @@
 site_name: 'Canadian Credential Network Governance Framework'
 site_description: 'The Governance Framework for the Canadian Credential Network Utility as operated by the Canadian Credential Network Project within the Linux Foundation.'
-site_dir: 'html'
+site_dir: 'C:\Users\dave\projects\canacred\governance\docs'
 
 nav:
 - Informational:
     - 'Introduction': 'index.md'
-    - 'Purpose': 'gf_info/purpose.md'
+    - 'Purpose': 'gf_info\purpose.md'
     - 'Scope': 'gf_info/scope.md'
     - 'Principles': 'gf_info/principles.md'
     - 'Polices': 'gf_info/policies.md'
@@ -23,7 +23,7 @@ nav:
             - 'Economic Policies': 'gf_controlled/economic_policies.md'
             - 'Certification Mark Policies': 'gf_controlled/certification_mark_policies.md'
             - 'Trusted Network Polices': 'gf_controlled/trusted_network_policies.md'
-        -Canacred Network Rules:
+        - Canacred Network Rules:
             - 'Canacred Network Governing Rules': 'gf_controlled/governing_rules.md'
             - 'Canacred Network Business Rules': 'gf_controlled/business_rules.md'
             - 'Canacred Network Technical Rules': 'gf_controlled/technical_rules.md'
