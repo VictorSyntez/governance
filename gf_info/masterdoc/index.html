@@ -1,0 +1,1493 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="The Governance Framework for the Canadian Credential Network Utility as operated by the Canadian Credential Network Project within the Linux Foundation.">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.6">
+    
+    
+      
+        <title>Master Document - Canadian Credential Network Governance Framework</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6910b76c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.196e0c26.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#preface" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="Canadian Credential Network Governance Framework" class="md-header-nav__button md-logo" aria-label="Canadian Credential Network Governance Framework">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Canadian Credential Network Governance Framework
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Master Document
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Canadian Credential Network Governance Framework" class="md-nav__button md-logo" aria-label="Canadian Credential Network Governance Framework">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Canadian Credential Network Governance Framework
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" >
+    <label class="md-nav__link" for="nav-1">
+      Informational
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Informational" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon"></span>
+        Informational
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../.." class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../consortium.md" class="md-nav__link">
+      Consortium
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../transition/" class="md-nav__link">
+      Motivation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../membership/" class="md-nav__link">
+      Membership
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../business_model_concepts/" class="md-nav__link">
+      Business Model
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fee_schedule/" class="md-nav__link">
+      Pricing
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    <label class="md-nav__link" for="nav-2">
+      Constitutional
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Constitutional" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Constitutional
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Master Document
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Master Document
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#preface" class="md-nav__link">
+    Preface
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-control" class="md-nav__link">
+    Version Control
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acknowledgements" class="md-nav__link">
+    Acknowledgements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#governance-framework" class="md-nav__link">
+    Governance Framework
+  </a>
+  
+    <nav class="md-nav" aria-label="Governance Framework">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#governance-documents" class="md-nav__link">
+    Governance Documents
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-principles" class="md-nav__link">
+    Core Principles
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-polices" class="md-nav__link">
+    Core Polices
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Polices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inclusion" class="md-nav__link">
+    Inclusion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-assurance" class="md-nav__link">
+    Trust Assurance
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#economics" class="md-nav__link">
+    Economics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#governance" class="md-nav__link">
+    Governance
+  </a>
+  
+    <nav class="md-nav" aria-label="Governance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    General
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#source-control" class="md-nav__link">
+    Source Control
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#approved-framework-process" class="md-nav__link">
+    Approved Framework Process
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#master-document-revisions" class="md-nav__link">
+    Master Document Revisions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controlled-document-revisions" class="md-nav__link">
+    Controlled Document Revisions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#appendix-a-controlled-documents" class="md-nav__link">
+    Appendix A: Controlled Documents
+  </a>
+  
+    <nav class="md-nav" aria-label="Appendix A: Controlled Documents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definitions" class="md-nav__link">
+    Definitions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#specifications" class="md-nav__link">
+    Specifications
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#policies" class="md-nav__link">
+    Policies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frameworks" class="md-nav__link">
+    Frameworks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2" >
+    <label class="md-nav__link" for="nav-2-2">
+      Controlled Documents
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Controlled Documents" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        <span class="md-nav__icon md-icon"></span>
+        Controlled Documents
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../glossary/" class="md-nav__link">
+      Glossary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/governing_bodies/" class="md-nav__link">
+      Governing Bodies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/governing_body_policies/" class="md-nav__link">
+      Governing Body Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-4" type="checkbox" id="nav-2-2-4" >
+    <label class="md-nav__link" for="nav-2-2-4">
+      Consortium Policies
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Consortium Policies" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-4">
+        <span class="md-nav__icon md-icon"></span>
+        Consortium Policies
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/by_laws/" class="md-nav__link">
+      Consortium Charter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/economic_policies/" class="md-nav__link">
+      Economic Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/certification_mark_policies/" class="md-nav__link">
+      Certification Mark Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/trusted_network_policies/" class="md-nav__link">
+      Trusted Network Polices
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-5" type="checkbox" id="nav-2-2-5" >
+    <label class="md-nav__link" for="nav-2-2-5">
+      Operating Policies
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Operating Policies" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-5">
+        <span class="md-nav__icon md-icon"></span>
+        Operating Policies
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/ledger_access_policies/" class="md-nav__link">
+      Ledger Access Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/ledger_data_polices/" class="md-nav__link">
+      Ledger Data Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/member_business_policies/" class="md-nav__link">
+      Steward Business Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/member_top/" class="md-nav__link">
+      Steward Technical and Organizational Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/endorser_business_policies/" class="md-nav__link">
+      Endorser Business Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/endorser_top/" class="md-nav__link">
+      Endorser Technical and Organizational Policies
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-6" type="checkbox" id="nav-2-2-6" >
+    <label class="md-nav__link" for="nav-2-2-6">
+      Legal
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Legal" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-6">
+        <span class="md-nav__icon md-icon"></span>
+        Legal
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_legal/legal_arch/" class="md-nav__link">
+      Architecture
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_legal/legal_services/" class="md-nav__link">
+      Services
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_legal/member_agreements/" class="md-nav__link">
+      Member Agreements
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_legal/non_member_agreements/" class="md-nav__link">
+      Non-Member Agreements
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-7" type="checkbox" id="nav-2-2-7" >
+    <label class="md-nav__link" for="nav-2-2-7">
+      Compliance
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Compliance" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-7">
+        <span class="md-nav__icon md-icon"></span>
+        Compliance
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_assurance/" class="md-nav__link">
+      Trust Assurance
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+    <label class="md-nav__link" for="nav-3">
+      Help
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Help" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Help
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../faq/" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../contact_us/" class="md-nav__link">
+      Contact us
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#preface" class="md-nav__link">
+    Preface
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-control" class="md-nav__link">
+    Version Control
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acknowledgements" class="md-nav__link">
+    Acknowledgements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#governance-framework" class="md-nav__link">
+    Governance Framework
+  </a>
+  
+    <nav class="md-nav" aria-label="Governance Framework">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#governance-documents" class="md-nav__link">
+    Governance Documents
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-principles" class="md-nav__link">
+    Core Principles
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-polices" class="md-nav__link">
+    Core Polices
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Polices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inclusion" class="md-nav__link">
+    Inclusion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-assurance" class="md-nav__link">
+    Trust Assurance
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#economics" class="md-nav__link">
+    Economics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#governance" class="md-nav__link">
+    Governance
+  </a>
+  
+    <nav class="md-nav" aria-label="Governance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    General
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#source-control" class="md-nav__link">
+    Source Control
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#approved-framework-process" class="md-nav__link">
+    Approved Framework Process
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#master-document-revisions" class="md-nav__link">
+    Master Document Revisions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controlled-document-revisions" class="md-nav__link">
+    Controlled Document Revisions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#appendix-a-controlled-documents" class="md-nav__link">
+    Appendix A: Controlled Documents
+  </a>
+  
+    <nav class="md-nav" aria-label="Appendix A: Controlled Documents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definitions" class="md-nav__link">
+    Definitions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#specifications" class="md-nav__link">
+    Specifications
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#policies" class="md-nav__link">
+    Policies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frameworks" class="md-nav__link">
+    Frameworks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Master Document</h1>
+                
+                <h2 id="preface">Preface<a class="headerlink" href="#preface" title="Permanent link">&para;</a></h2>
+<p>This is an official document of the ​Canadian Credential Network Utility Governance Framework​ ("CCNU-GF"). If you have comments or suggestions, we invite you to submit them using our <a href="https://github.com/Canacred/CCNU-gf/issues">issue tracker</a>. If you are interested in joining the Canadian Credential Network, please feel free to <a href="https://canacred.github.io/ccnu-gf/contact_us/">contact us</a>.</p>
+<h2 id="version-control">Version Control<a class="headerlink" href="#version-control" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Version</strong>: 0.2</li>
+<li><strong>Governing Board Approval Date</strong>: TBD</li>
+<li><strong>Comments</strong>: Ratification of the CCNU-GF will take place upon the formation of the Governing Board (at first meeting).</li>
+<li><strong>Status</strong>: CCNU Governance Framework Working Group is currently developing the CCNU-GF.</li>
+</ul>
+<h2 id="acknowledgements">Acknowledgements<a class="headerlink" href="#acknowledgements" title="Permanent link">&para;</a></h2>
+<p>​This document was produced on behalf of the CCNU Governing Board by the CCNU Governance Framework Working Group.</p>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>The purpose of the Canadian Credential Network Utility is to provide a decentralized global public utility for trusted relationship in Canada.
+The Canadian Credential Network Utility (the "CCNU-GF") serves as the <em>constitution</em> for the <em>Canadian Credential Network Utility</em>. It represents an instance of a <a href="https://trustoverip.org/working-groups/governance-stack/">ToIP Layer One Public Utility Governance Framework</a> under the guidance of the <a href="https://trustoverip.org/working-groups/utility-foundry/">ToIP Utility Foundry Working Group</a>.</p>
+<p><img alt="toip-stack" src="https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0289-toip-stack/img/fig-1-toip-full-stack.png?raw=true" /></p>
+<p>The CCNU-GF leverages the principles, policies, terminology, and standards necessary to enable trusted digital relationship based on decentralized identity.</p>
+<p>A key objective of the CCNU-GF is to address any concerns or risks that Network members may have as Utility participants. For example, compliance with Data Protection Regulations such as the Canada's Privacy Act and the Canadian Personal Information Protection and Electronic Documents Act (PIPEDA).</p>
+<p>The purpose of the Canadian Credential Network is to administer decentralized governance for Canadian Credential Network Utility.</p>
+<h2 id="governance-framework">Governance Framework<a class="headerlink" href="#governance-framework" title="Permanent link">&para;</a></h2>
+<h3 id="governance-documents">Governance Documents<a class="headerlink" href="#governance-documents" title="Permanent link">&para;</a></h3>
+<p>The CCNU-GF formally consists of a set of interrelated documents that collectively form the governance model for the Utility that the Network manages. The documents are organized in three (3) categories; Blue = Normative, Yellow = Assessment, White = Informative.</p>
+<p><img alt="ccgf-gf" src="../../img/ccnu-gf.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Primary (White)</td>
+<td>Canacred GF Whitepaper</td>
+<td>Introduction to the Canacred Governance Framework Version 1</td>
+</tr>
+<tr>
+<td>Primary (Blue)</td>
+<td>Canacred Governance Framework (CCNU-GF) Master Document</td>
+<td>The “constitution” of the Network, this document defines the purpose, core principles, and core policies, and also references all other documents in the GF.</td>
+</tr>
+<tr>
+<td>Primary (Blue)</td>
+<td>Canacred Glossary</td>
+<td>A comprehensive glossary of terms used throughout all the CCNU-GF documents</td>
+</tr>
+<tr>
+<td>Primary (Yellow)</td>
+<td>Canacred Trust Assurance Framework</td>
+<td>This document defines criteria and processes for assessing conformance of network stakeholders to the policies of the CCNU-GF.</td>
+</tr>
+<tr>
+<td>Legal (Blue)</td>
+<td>Canadian Credential Network Utility Participation Agreement</td>
+<td>Contractual instrument between the Network and a member.</td>
+</tr>
+<tr>
+<td>Legal (Blue)</td>
+<td>Canacred Steward Agreement</td>
+<td>Contractual instrument between the Network and a Governing or Operational Member.</td>
+</tr>
+<tr>
+<td>Legal (Blue)</td>
+<td>Canacred Steward Data Processing Agreement</td>
+<td>Contractual instrument between the Network and a Governing or Operational Member.</td>
+</tr>
+<tr>
+<td>Legal (Blue)</td>
+<td>Canacred Transaction Endorser Agreement</td>
+<td>Contractual instrument between the Network and a Governing, Operational or Subscriber Member.</td>
+</tr>
+<tr>
+<td>Legal (Blue)</td>
+<td>Canacred Transaction Endorser Data Processing Agreement</td>
+<td>Contractual instrument between the Network and a Governing, Operational or Subscriber Member.</td>
+</tr>
+<tr>
+<td>Legal (Blue)</td>
+<td>Transaction Author Agreement</td>
+<td>Contractual instrument between the Network and any person or organization initiating a write transaction to the Utility.</td>
+</tr>
+<tr>
+<td>Controlled Documents (Blue)</td>
+<td>Governing Body Policies</td>
+<td>The governance policies that apply to all CCNU Governing Bodies.</td>
+</tr>
+<tr>
+<td>Controlled Documents (Blue)</td>
+<td>Ledger Access Policies</td>
+<td>Governing policies for reading and writing to the Utility and the processing of CCNU transactional data.</td>
+</tr>
+<tr>
+<td>Controlled Documents (Blue)</td>
+<td>Member Business Policies</td>
+<td>Governing qualification, application, activation, operation, suspension, and termination of members.</td>
+</tr>
+<tr>
+<td>Controlled Documents (Blue)</td>
+<td>Member Technical Policies</td>
+<td>Governing the security, node operation, node selection, and reporting requirements for members.</td>
+</tr>
+<tr>
+<td>Controlled Documents (Blue)</td>
+<td>Economic Policies</td>
+<td>Governing economic incentives, fees, and regulatory compliance and budgetary management.</td>
+</tr>
+<tr>
+<td>Controlled Documents (Blue)</td>
+<td>Canacred Certification Mark Policies</td>
+<td>Governing the establishment of and use of the Canacred Certification policies for ecosystem stakeholders.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="core-principles">Core Principles<a class="headerlink" href="#core-principles" title="Permanent link">&para;</a></h3>
+<p>See <a href="../principles/">CCNU Principles</a>.</p>
+<h2 id="core-polices">Core Polices<a class="headerlink" href="#core-polices" title="Permanent link">&para;</a></h2>
+<p>In keeping with all Core Principles and especially the Decentralization by Design and Security by Design principles:</p>
+<ol>
+<li>Policies, practices, procedures, and algorithms governing participation of <a href="../glossary/">Stewards</a> and operation of Nodes MUST follow all Core Principles.</li>
+<li>The Network MUST publish the following Controlled Documents managed as specified by CCNU Governing Bodies:​
+a. Member Business Policies
+b. Member Technical Policies​
+c. Ledger Access Policies
+​</li>
+</ol>
+<h3 id="inclusion">Inclusion<a class="headerlink" href="#inclusion" title="Permanent link">&para;</a></h3>
+<p>In keeping with the Inclusive by Design principles but in recognition of the permissioned write structure of the Canadian Credential Network Utility:</p>
+<ol>
+<li>Read access to the Canadian Credential Network Utility MUST be open to all types of entities.  </li>
+<li>Write access will be limited to members and non-members in good standing within the Network.</li>
+<li>Write access will be limited to members and non-members that have signed the necessary <code>Utility Agreements</code>. See <code>Exibit B</code> of the Participation Agreement.</li>
+</ol>
+<h3 id="trust-assurance">Trust Assurance<a class="headerlink" href="#trust-assurance" title="Permanent link">&para;</a></h3>
+<p>In keeping with all Core Principles and especially the Decentralization by Design principles:</p>
+<ol>
+<li>The Network MUST specify policies, practices, and procedures for assessing conformance to the Canacred Governance Framework by publishing and maintaining the Canacred Trust Assurance Framework​ ​as a Controlled Document managed as specified by CCNU Governing Bodies​. The Controlled Documents may leverage resources and guidance from the ToIP Foundation.</li>
+<li>The Canadian Credential Network MUST publish a Canacred Trust Mark Policies​ ​as a Controlled Document managed as specified by CCNU Governing Bodies.​</li>
+</ol>
+<h2 id="economics">Economics<a class="headerlink" href="#economics" title="Permanent link">&para;</a></h2>
+<p><em>I don't know if we need these currently</em></p>
+<p>In keeping with the Sustainability principle:</p>
+<ol>
+<li>The Network  MAY publish the Canacred Economic Policies​ ​as a Controlled Document managed as specified by CCNU Governing Bodies​ in conjunction with Network legal counsel.</li>
+<li>The Network MAY manage Ledger Fees and any mechanism used for paying them to ensure economic viability and sustainability for the Network to keep with its charter as a non-profit public trust organization.</li>
+<li>The Network SHOULD retain a qualified Auditor to publish an annual public audit of Network finances.</li>
+</ol>
+<h2 id="governance">Governance<a class="headerlink" href="#governance" title="Permanent link">&para;</a></h2>
+<p>The Canacred Governance Framework Master Document and the Controlled Documents listed in <code>Appendix A</code> shall be revised from time to time. The policies in this section govern this process and procedures for managing document lifecycles.</p>
+<h3 id="general">General<a class="headerlink" href="#general" title="Permanent link">&para;</a></h3>
+<ol>
+<li>The Network MUST publish CCNU Governance Bodies as a Controlled Document managed by the Board of Directors.</li>
+<li>CCNU Governance Bodies MUST specify the Canadian Credential Network Governing Body for each Controlled Document.</li>
+<li>All CCNU-GF documents, including Controlled Documents, MUST use keywords in policies as defined in <a href="https://tools.ietf.org/html/rfc2119">IETF RFC 2119</a>.</li>
+<li>All CCNU-GF documents MAY be revised to add non-normative
+content, such as references to appendices, white papers, or other explanatory materials, without triggering a formal revision review process as defined in this <code>Governance Section</code>.</li>
+</ol>
+<h3 id="source-control">Source Control<a class="headerlink" href="#source-control" title="Permanent link">&para;</a></h3>
+<p>All CCNU-GF documents will reside in a <a href="https://github.com/bedrock-consortium/bbu-gf">Github source control repository</a> and will use the associated <a href="https://github.com/bedrock-consortium/bbu-gf/issues/">Issue Tracker</a> for change management.</p>
+<h3 id="approved-framework-process">Approved Framework Process<a class="headerlink" href="#approved-framework-process" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Stable versions of the CCNU-GF must be approved by the Board of Directors.</li>
+<li>Approved versions need to be specified in the <code>Version Control</code> section of this document.</li>
+<li>A static PDF file associated with the approved version MUST be stored in the <code>/pdf/approved</code> folder of the GitHub repo.</li>
+<li><code>Appendix A</code> of this document must be updated to point to the newly approved PDF file.</li>
+</ol>
+<h3 id="master-document-revisions">Master Document Revisions<a class="headerlink" href="#master-document-revisions" title="Permanent link">&para;</a></h3>
+<p>These policies apply to any normative revision to the present document, exclusive of <code>Appendix A</code>.
+1. Revisions to the CCNU-GF Master Document MUST respect the Purpose and Core Principles.
+2. The commencement of any revision process MUST be publicly announced by the Network no later than the time of commencement.
+3. Decisions in the revision process is restricted to the Governing Board and SHOULD consider input from all CCNU members.
+4. Proposed revisions MUST be publicly announced by the Network.
+5. Revisions MUST be approved by a supermajority vote of at least two-thirds of the Governing Board and before the revision takes effect.</p>
+<h3 id="controlled-document-revisions">Controlled Document Revisions<a class="headerlink" href="#controlled-document-revisions" title="Permanent link">&para;</a></h3>
+<p>These policies apply to any normative revision to the Controlled Documents listed in <code>Appendix A</code>.
+1. The list of Controlled Documents in Appendix A, as well as each Controlled Document on that list, MAY be revised independently from the CCNU-GF Master Document (the present document).
+2. A Controlled Document MUST be stored in and use the source control mechanisms established in this <code>Governance Section</code>.
+4. Revisions to a Controlled Document MUST be approved by the Governing Board before the revision takes effect.</p>
+<h2 id="appendix-a-controlled-documents">Appendix A: Controlled Documents<a class="headerlink" href="#appendix-a-controlled-documents" title="Permanent link">&para;</a></h2>
+<p>The following Controlled Documents are normative components of the CCNU-GF. All framework content is published by the Network in three forms:</p>
+<ol>
+<li>A static PDF document representing the entire governance framework in a single document.<ul>
+<li><a href="../../pdf/bedrock-business-utility-gf.pdf">Latest compilation of material from the GitHub Repo</a></li>
+<li><a href="../../pdf/approved/bedrock-business-utility-gf-v1.pdf">Official Governing Board Approved Version</a></li>
+</ul>
+</li>
+<li>A sub-section of the <a href="https://bedrock-consortium.github.io/bbu-gf/">CCNU website</a> so that all documentation is easily navigated.  </li>
+<li>Independent markdown files (<code>.md</code>) in the <a href="https://github.com/bedrock-consortium/bbu-gf">GitHub Repo</a>.</li>
+</ol>
+<h3 id="definitions">Definitions<a class="headerlink" href="#definitions" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Document Name</th>
+<th>Description</th>
+<th>Governed By</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CCNU Glossary</td>
+<td>Definitions of all terms used in the CGF</td>
+<td>Governance Framework Working Group</td>
+</tr>
+<tr>
+<td>Governing Bodies</td>
+<td>Definitions of governing bodies within the Network</td>
+<td>Canacred Governing Board</td>
+</tr>
+<tr>
+<td>Ledger Transaction Data</td>
+<td>Defines the data and metadata process by a Steward Node</td>
+<td>Technical Steering Committee</td>
+</tr>
+</tbody>
+</table>
+<h3 id="specifications">Specifications<a class="headerlink" href="#specifications" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Document Name</th>
+<th>Description</th>
+<th>Governed By</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Decentralized Identifiers</td>
+<td><a href="https://w3c-ccg.github.io/did-spec/">Specification for DIDs and DID documents</a></td>
+<td>W3C Credentials Community Group</td>
+</tr>
+<tr>
+<td>CCNU DID Method 1.0 Specification</td>
+<td>Specification for the CCNU DID Root Namespace. See <a href="https://github.com/bedrock-consortium/bbu-gf/issues/13">Issue 13</a></td>
+<td>Technical Steering Committee</td>
+</tr>
+<tr>
+<td>Verifiable Credentials Data Model 1.0</td>
+<td><a href="https://w3c.github.io/vc-data-model/">Specification for verifiable credentials</a></td>
+<td>W3C Verifiable Claims Working Group</td>
+</tr>
+</tbody>
+</table>
+<h3 id="policies">Policies<a class="headerlink" href="#policies" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Document Name</th>
+<th>Description</th>
+<th>Governed By</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Governing Body Policies</td>
+<td>Chartering and functioning of CCNU Governing Bodies</td>
+<td>Governing Board</td>
+</tr>
+<tr>
+<td>Ledger Access Policies</td>
+<td>Read and write access to the Canadian Credential Network Utility</td>
+<td>Governance Framework Working Group</td>
+</tr>
+<tr>
+<td>Member Business Policies</td>
+<td>Member qualification, enrollment, and operational status</td>
+<td>Membership Committee</td>
+</tr>
+<tr>
+<td>Membership Technical Policies</td>
+<td>Technical requirements for operating and protecting components of the CCNU infrastructure.</td>
+<td>Technical Steering Committee</td>
+</tr>
+<tr>
+<td>Economic Policies</td>
+<td>Budgetary policies for the CCNU.</td>
+<td>Finance Committee</td>
+</tr>
+<tr>
+<td>Trust Mark Policies</td>
+<td>Acceptable uses of the Bedrock Trust Mark</td>
+<td>Governance Framework Working Group</td>
+</tr>
+</tbody>
+</table>
+<h3 id="frameworks">Frameworks<a class="headerlink" href="#frameworks" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Document Name</th>
+<th>Description</th>
+<th>Governed By</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trust Assurance Framework</td>
+<td>Trust assurance for CGF actors</td>
+<td>Governance Framework Working Group</td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../fee_schedule/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Pricing
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../glossary/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Glossary
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2020
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.fd16492e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.7836ba4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
