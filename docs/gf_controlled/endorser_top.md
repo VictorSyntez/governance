@@ -1,6 +1,6 @@
 ## Endorser Technical and Organizational Policies
 
-This is a Controlled Document of the Bedrock Governance Framework was approved by the Canadian Credential Network Board of Directors.
+This is a Controlled Document of the Canadian Credential Network Governance Framework was approved by the Canadian Credential Network Board of Directors.
 
 | Document Name | Endorser Technical and Organizational Policies |
 | --- | --- |
@@ -8,7 +8,7 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
 | Governs | General Security Policies, Node Technical Policies, General Security Policies, Node Security Policies, Operating Policies, Node Selection Algorithm, Permissioned Test Network Policies, Reporting Policies |
-| Governed By | Bedrock Governance Framework Work Group, Bedrock Technical Steering Committee |
+| Governed By | Canadian Credential Network Governance Framework Work Group, Canadian Credential Network Technical Steering Committee |
 
 
 ## 1. General Security Policies

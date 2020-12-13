@@ -1,6 +1,6 @@
 # Steward Business Policies
 
-This is a Controlled Document of the Bedrock Governance Framework was approved by the Canadian Credential Network Board of Directors.
+This is a Controlled Document of the Canadian Credential Network Governance Framework was approved by the Canadian Credential Network Board of Directors.
 
 | Document Name | Steward Business Policies |
 | --- | --- |
@@ -8,7 +8,7 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
 | Governs | Steward Qualification, Application, Activation, Operation, Notification, Suspension, Termination, and Transition |
-| Governed By | Bedrock Governance Framework Work Group |
+| Governed By | Canadian Credential Network Governance Framework Work Group |
 
 ## 1. Member Qualification
 See [Issue 21](https://github.com/bedrock-consortium/bbu-gf/issues/21) for review.
@@ -22,8 +22,9 @@ Prospective members seeking qualification under a membership type that is assign
 1. A corporate member of The Linux Foundation.
 2. A business entity that is identifiable with at least one of the following business verification services:
 
-    1. [DUNS Number Lookup](https://www.dnb.com/duns-number/lookup.html)
-    2. [Legal Entity Identifier Lookup](https://search.gleif.org/#/search/)
+    1. [Verifiable Organizations Network (VON)](https://vonx.io/)
+    2. [DUNS Number Lookup](https://www.dnb.com/duns-number/lookup.html) TBD
+    3. [Legal Entity Identifier Lookup](https://search.gleif.org/#/search/) TBD
 
 ### Subscribers
 Prospective members seeking qualification as a Subscriber MUST be:
@@ -33,8 +34,9 @@ Prospective members seeking qualification as a Subscriber MUST be:
 
     1. A business entity that is identifiable with at least one of the following business verification services:
 
-        1. [DUNS Number Lookup](https://www.dnb.com/duns-number/lookup.html)
-        2. [Legal Entity Identifier Lookup](https://search.gleif.org/#/search/)
+        1. [Verifiable Organizations Network (VON)](https://vonx.io/)
+        2. [DUNS Number Lookup](https://www.dnb.com/duns-number/lookup.html) TBD
+        3. [Legal Entity Identifier Lookup](https://search.gleif.org/#/search/) TBD
 
     1. A governmental body or agency, or an entity predominantly owned and controlled by the state, in a Jurisdiction as defined in the [Glossary](../gf_info/glossary.md).
     1. A governmentally regulated institution with at least five (5) years operating history.
