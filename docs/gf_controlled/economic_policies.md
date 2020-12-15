@@ -6,7 +6,7 @@ This is a Controlled Document of the Canacred Governance Framework was approved 
 | --- | --- |
 | Version | v0.9 |
 | Approval Date | |
-| Status | Pre-Launch Phase: Governance Framework Development rr|
+| Status | Pre-Launch Phase: Governance Framework Development |
 | Governs |Membership, Incentives |
 | Governed By | Canacred Governance Framework Work Group |
 
@@ -17,8 +17,8 @@ The Canadian Credential Network MUST establish economic procedures that will ach
 | --- | --- |
 | Version | v0.9 |
 | Approval Date | |
-| Status | Pre-Launch Phase: Governance Framework Development rr|
-| Governs |Membership, Incentives |
+| Status | Pre-Launch Phase: Governance Framework Development |
+| Governs |Membership, Incentives | fffffy |
 | Governed By | Canacred Governance Framework Work Group |
 
 1. Procurement
