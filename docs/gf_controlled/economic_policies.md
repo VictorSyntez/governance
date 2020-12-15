@@ -6,7 +6,7 @@ This is a Controlled Document of the Canacred Governance Framework was approved 
 | --- | --- |
 | Version | v0.9 |
 | Approval Date | |
-| Status | Pre-Launch Phase: Governance Framework Development |
+| Status | Pre-Launch Phase: Governance Framework Development rr|
 | Governs |Membership, Incentives |
 | Governed By | Canacred Governance Framework Work Group |Review
 
