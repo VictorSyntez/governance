@@ -30,8 +30,15 @@ The Canadian Credential Network MUST establish economic procedures that will ach
 | --- | --- |
 | Standard 25k annu.| Standar digital exposure (website)|
 | Advanced 50k annu. | Premium digital exposure (In all our digital portals and social media)|
-| Governs |Membership, Incentives |
-| Governed By | Canacred Governance Framework Work Group |
+| Enhanced 75k annu. | Advanced + Presented as a stake holder and partner in all our presentations + free training for staff members|
+
+
+| Program Name | Steward program |
+| --- | --- |
+| Responsibilities | Running a network node at all times|
+| Cost | 6k per year (network cost) + 20k fee |
+| Enhanced 75k annu. | Advanced + Presented as a stake holder and partner in all our presentations |
+| Enhanced 75k annu. | Advanced + Presented as a stake holder and partner in all our presentations + free training for staff members|
 
 
 ### Utility Service Providers
