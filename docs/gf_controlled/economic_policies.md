@@ -28,9 +28,7 @@ The Canadian Credential Network MUST establish economic procedures that will ach
 
 | Plan Name | Sponsorship offering |
 | --- | --- |
-| Plan Name | Features |
-| Standard 
-25k Annual| |
+| Standard 25k annu.| Standar digital exposure |
 | Status | Pre-Launch Phase: Governance Framework Development |
 | Governs |Membership, Incentives |
 | Governed By | Canacred Governance Framework Work Group |
