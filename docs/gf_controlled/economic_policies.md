@@ -30,15 +30,16 @@ The Canadian Credential Network MUST establish economic procedures that will ach
 | --- | --- |
 | Standard 25k annu.| Standar digital exposure (website)|
 | Advanced 50k annu. | Premium digital exposure (In all our digital portals and social media)|
-| Enhanced 75k annu. | Advanced + Presented as a stake holder and partner in all our presentations + free training for staff members|
+| Enhanced 75k annu. | Advanced + Be presented as a stake holder and partner + free SSI training for staff members|
 
 
 | Program Name | Steward program |
 | --- | --- |
 | Responsibilities | Running a network node at all times|
-| Cost | 6k per year (network cost) + 20k fee |
-| Enhanced 75k annu. | Advanced + Presented as a stake holder and partner in all our presentations |
-| Enhanced 75k annu. | Advanced + Presented as a stake holder and partner in all our presentations + free training for staff members|
+| Costs | 6k per year (network cost) + 25k per year (Canacred network support and staff)|
+| Incentives | Be part of a groundbreaking SSI technology  |
+| Incentives | Standar sponsorship plan included + free SSI training for staff members|
+| Incentives | Steward can use the network for their credential validation|
 
 
 ### Utility Service Providers
