@@ -14,11 +14,11 @@ This is a Controlled Document of the Canacred Governance Framework was approved 
 The Canadian Credential Network MUST establish economic procedures that will achieve the following:
 
 | Document Name | Economic Policies |
-| --- | --- |
+| --- | --- | --- |
 | Version | v0.9 |
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
-| Governs | Membership, Incentives | fffffy |
+| Governs | Membership, Incentives | Fffffy |
 | Governed By | Canacred Governance Framework Work Group |
 
 1. Procurement
