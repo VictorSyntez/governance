@@ -18,7 +18,7 @@ The Canadian Credential Network MUST establish economic procedures that will ach
 | Version | v0.9 |
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
-| Governs |Membership, Incentives | fffffy |
+| Governs | Membership, Incentives | fffffy |
 | Governed By | Canacred Governance Framework Work Group |
 
 1. Procurement
