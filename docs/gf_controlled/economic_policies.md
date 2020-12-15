@@ -13,6 +13,10 @@ This is a Controlled Document of the Canacred Governance Framework was approved 
 ### Membership
 The Canadian Credential Network MUST establish economic procedures that will achieve the following:
 
+Qfjflksdjf	Asdklfjdskljf
+Dsfkdsl;f	Dfdsafdsfdsa
+Dfdls;kfl	sfsdfd
+
 1. Procurement
     1. Collection of membership dues.
     2. Sale and renewal of Subscription plans (REVIEW).
