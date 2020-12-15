@@ -10,26 +10,30 @@ This is a Controlled Document of the Canacred Governance Framework was approved 
 | Governs |Membership, Incentives |
 | Governed By | Canacred Governance Framework Work Group |
 
-### Membership
+### Income Sources 
 The Canadian Credential Network MUST establish economic procedures that will achieve the following:
 
-| Document Name | Economic Policies |
+1. Procurement
+    1. Enroll institutions for the stewardship program.
+    2. Sale and renewal of Sponsorship  plans.
+    3. Enroll institutions and individuals in our education and training programs.
+2. Currency
+    1. All income MUST be denominated in Canadian Dollars (CAD).
+3. Publication
+    1. All Canadian Credential Network sponsorship plan offerings SHOULD be publicly disclosed on the Canadian Credential Network website.
+    2. All Canadian Credential Network stewardship offerings SHOULD be publicly disclosed on the Canadian Credential Network website.
+    3. All Canadian Credential Network education and training programs SHOULD be publicly disclosed on the Canadian Credential Network website.
+    
+### Plans and Programs
+
+| Plan Name | Sponsorship offering |
 | --- | --- |
 | Version | v0.9 |
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
-| Governs | Membership, Incentives |
+| Governs |Membership, Incentives |
 | Governed By | Canacred Governance Framework Work Group |
 
-1. Procurement
-    1. Collection of membership dues.
-    2. Sale and renewal of Subscription plans (REVIEW).
-    3. Membership management and ledger transaction usage that track membership entitlements and status. See [Membership Management System](../gf_info/glossary.md).
-2. Currency
-    1. All income MUST be denominated in Canadian Dollars (CAD).
-3. Publication
-    1. All Canadian Credential Network subscription plan offerings SHOULD be publicly disclosed on the Canadian Credential Network website.
-    2. The Canadian Credential Network SHOULD publish the current schedule of Membership Fees on the Canadian Credential Network website.
 
 ### Utility Service Providers
 The Canadian Credential Network MUST establish economic procedures that will achieve the following:
