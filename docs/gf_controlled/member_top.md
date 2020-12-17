@@ -1,6 +1,6 @@
 # Steward Technical and Organizational Policies
 
-This is a Controlled Document of the Bedrock Governance Framework was approved by the Canadian Credential Network Board of Directors.
+This is a Controlled Document of the Canadian Credential Network Governance Framework was approved by the Canadian Credential Network Board of Directors.
 
 | Document Name | Steward Technical and Organizational Policies |
 | --- | --- |
@@ -8,17 +8,17 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
 | Governs | General Security Policies, Node Technical Policies, General Security Policies, Node Security Policies, Operating Policies, Node Selection Algorithm, Permissioned Test Network Policies, Reporting Policies |
-| Governed By | Bedrock Governance Framework Work Group, Bedrock Technical Steering Committee |
+| Governed By | Canadian Credential Network Governance Framework Work Group, Bedrock Technical Steering Committee |
 
 ## 1. Ledger Software Policies
 
-1. The Bedrock Board of Directors MUST decide the software technology and version used by all Nodes (Validator, Observer). This software is referred to as the *Bedrock Open Source Code*.
-2. The Bedrock Board of Directors MUST require the TSC to establish best practices for continuous delivery and integration of the *Bedrock Open Source Code* using containerization.
-3. The Bedrock Board of Directors MUST require the TSC and/or the Utility Service Provider to deploy an upgrade notification process that will allow Stewards to automatically recognized and act when upgrades are available.   
-4. The Bedrock Board of Directors MAY leverage the Technical Steering Committee (TSC) or another 3rd party service to maintain a version of the Bedrock Open Source Code.
-5. The Bedrock Board of Directors SHOULD require the TSC and/or the Utility Service Provider to automate any prescribed tools that are expected to be used by a node.
-6. The Bedrock Board of Directors MUST require the TSC and/or the Utility Service Provider to clearly articulate the mechanism by which a Steward schedules and communicates downtime.
-7. The Bedrock Board of Directors SHOULD require the TSC and the Utility Service Provider to RECOMMEND that Stewards use the [Hyperledger Blockchain Automation Framework](https://github.com/hyperledger-labs/blockchain-automation-framework) (BAF) when standing up their Steward node if they are not going to procure Node-aaS from a Hosting Provider. BAF provides a consistent delivery/ deployment architecture to standup up and maintain a single Hyperledger Indy node for a Steward.
+1. The Canadian Credential Network Board of Directors MUST decide the software technology and version used by all Nodes (Validator, Observer). This software is referred to as the *Bedrock Open Source Code*.
+2. The Canadian Credential Network Board of Directors MUST require the TSC to establish best practices for continuous delivery and integration of the *Bedrock Open Source Code* using containerization.
+3. The Canadian Credential Network Board of Directors MUST require the TSC and/or the Utility Service Provider to deploy an upgrade notification process that will allow Stewards to automatically recognized and act when upgrades are available.   
+4. The Canadian Credential Network Board of Directors MAY leverage the Technical Steering Committee (TSC) or another 3rd party service to maintain a version of the Bedrock Open Source Code.
+5. The Canadian Credential Network Board of Directors SHOULD require the TSC and/or the Utility Service Provider to automate any prescribed tools that are expected to be used by a node.
+6. The Canadian Credential Network Board of Directors MUST require the TSC and/or the Utility Service Provider to clearly articulate the mechanism by which a Steward schedules and communicates downtime.
+7. The Canadian Credential Network Board of Directors SHOULD require the TSC and the Utility Service Provider to RECOMMEND that Stewards use the [Hyperledger Blockchain Automation Framework](https://github.com/hyperledger-labs/blockchain-automation-framework) (BAF) when standing up their Steward node if they are not going to procure Node-aaS from a Hosting Provider. BAF provides a consistent delivery/ deployment architecture to standup up and maintain a single Hyperledger Indy node for a Steward.
 
 
 ## 2. General Security Policies
@@ -103,7 +103,7 @@ A Steward:
 3. SHOULD coordinate downtime with other Stewards in advance via a mechanism as determined from time to time by agreement between the TSC and any other relevant Canadian Credential Network Governing Body.
 
 ## 7. Node Selection Algorithm
-1. The TSC will take direction from the Canadian Credential Network Board of Directors, or a designated Bedrock Workgroup, regarding the configuration parameters associated with the deployment of the Node Selection Algorithm.
+1. The TSC will take direction from the Canadian Credential Network Board of Directors, or a designated Canadian Credential Network Workgroup, regarding the configuration parameters associated with the deployment of the Node Selection Algorithm.
 1. The selection of active Validator Nodes at any point in time, at least on the BBU, MUST be governed by the Node Selection Algorithm.
 2. Non-technical inputs or policy decisions implemented by the Node Selection Algorithm MUST be approved by the Canadian Credential Network Board of Directors.
 3. At any point in time, the Node Selection Algorithm MUST represent the TSC’s best efforts at designing an algorithm that applies the Core Principles of the Canadian Credential Network Governance Framework. Recognizing the inherent tension and tradeoffs between some of the Core Principles, the design of this algorithm should give priority to balancing:
@@ -111,7 +111,7 @@ A Steward:
 	1. The Decentralization by Design principles, in particular the principles of Diffuse Trust and High Availability. See *Diversity Goals* below.
 	1. The Security by Design principles, in particular the principles of System Diversity and Secure Failure. See *Diversity Goals* below.
 
-4. A human-readable, understandable, and explainable description of the current design of the algorithm as approved by the TSC MUST be published by the TSC in the official Bedrock Foundation Code Repository and made visible to all Stewards via a web page on the Canadian Credential Network website.
+4. A human-readable, understandable, and explainable description of the current design of the algorithm as approved by the TSC MUST be published by the TSC in the official Canadian Credential Network Foundation Code Repository and made visible to all Stewards via a web page on the Canadian Credential Network website.
 
 ## 8. Reporting Policies
 1. A Steward MUST report to the responsible Canadian Credential Network Governing Body any substantive change to the configuration or location of a Node within five (5) business days of the change.
