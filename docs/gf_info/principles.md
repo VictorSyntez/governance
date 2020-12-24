@@ -1,7 +1,10 @@
 ## Core Principles
+
 Unless otherwise noted, the CCN-GF is aligned with the principles outlined in ```Principles of SSI``` of the [Sovrin Governance Framework Working Group](https://docs.google.com/document/d/1GhcLeZEujX9h5gqrFNP-C1dMrS71EdCY4Uc1hGQbqI0/edit).  
-**December 2020**: CCN-GF leverage guiding principles introduced by [PCTF](https://diacc.ca/wp-content/uploads/2020/09/PCTF-Model-Final-Recommendation_V1.0.pdf) 
-### Principles v 0.9:
+**December 2020**: CCN-GF leverage guiding principles introduced by [PCTF](https://diacc.ca/wp-content/uploads/2020/09/PCTF-Model-Final-Recommendation_V1.0.pdf)
+
+### Principles v 0.9
+
 **Progressive profiling**
 **Privacy by Design**
 **Anti-oppressive Framework**
@@ -14,26 +17,18 @@ Of urgent concern is the development of a set of principles to underscore the ne
 At the June 2020 DIACC Innovation Expert Committee meeting, it was proposed and accepted that a working group develop a draft Digital Identity Wallet Principles for review. This is a set of durable and high level principles for security, privacy, interoperability, agency and other aspects. These principles will need to be sufficiently high level that they will stand the test of time in supporting innovation and various business models but will also ensure that the needs of Canadians, Canadian businesses, and the public sector are met.  
 Digital Identity Wallet
 For the purpose of these principles, we define an identity wallet as an application that is used by an individual to hold and present their identity information. Identity might not be the sole purpose of the application, any application that provides identity services falls under these principles.  We do not assume a specific identity network or technology, these principles should cover any existing implementations as well as future approaches to identity.
-1. Privacy - A wallet holder must be provided privacy by default.  
-4:29
-The wallet must be developed with privacy built into the default settings and services. The wallet must ensure that the data and privacy of the wallet holder is protected, from their first point of contact, without the customer having to change any settings. 
-2. Data Protection - A wallet holder must be provided data security for all data held on their device, in the cloud, in transmission or backed up.  
-All personal data is securely collected, transmitted, processed, stored, and backed up. To protect users’ data from unauthorized disclosure, alteration or use, all data at rest or in transit must be protected using industry standard encryption and security processes.
-3. Agency - The wallet holder must be able to act independently and make their own choices.
-The data belongs to the wallet holder, they must be able to grant consent and be enabled to store, share, edit or remove their data as they see fit.  
-4. Verifiable - The wallet holder must be able to verify the authenticity of providers, relying parties, networks and the wallet itself.  
-The wallet must provide the holder with full information about any party that the holder may engage in a relationship with. This includes information about the wallet developer and wallet certifications.
-5. Portable - The wallet must support standards to give agency to the holder to move their data to another wallet.
-The wallet cannot exclusively hold private data on the holder. The holder needs to be able to transfer their complete set of data in case of device obsolescence, disruption of service, changes in governance by the wallet developers or other factors that the holder calculates to be against their privacy, loss of agency or on a whim. The mechanisms for portability need to respect the principles already outlined.
-6. Interoperability - The wallet should support multiple networks for receiving and verifying identity data.
-The wallet should not isolate the holder to a single network. The wallet should allow the holder to have identity information that can be used between multiple identity networks where allowed by the networks.
+
+1. Privacy - A wallet holder must be provided privacy by default. The wallet must be developed with privacy built into the default settings and services. The wallet must ensure that the data and privacy of the wallet holder is protected, from their first point of contact, without the customer having to change any settings.
+2. Data Protection - A wallet holder must be provided data security for all data held on their device, in the cloud, in transmission or backed up. All personal data is securely collected, transmitted, processed, stored, and backed up. To protect users’ data from unauthorized disclosure, alteration or use, all data at rest or in transit must be protected using industry standard encryption and security processes.
+3. Agency - The wallet holder must be able to act independently and make their own choices. The data belongs to the wallet holder, they must be able to grant consent and be enabled to store, share, edit or remove their data as they see fit.  
+4. Verifiable - The wallet holder must be able to verify the authenticity of providers, relying parties, networks and the wallet itself. The wallet must provide the holder with full information about any party that the holder may engage in a relationship with. This includes information about the wallet developer and wallet certifications.
+5. Portable - The wallet must support standards to give agency to the holder to move their data to another wallet. The wallet cannot exclusively hold private data on the holder. The holder needs to be able to transfer their complete set of data in case of device obsolescence, disruption of service, changes in governance by the wallet developers or other factors that the holder calculates to be against their privacy, loss of agency or on a whim. The mechanisms for portability need to respect the principles already outlined.
+6. Interoperability - The wallet should support multiple networks for receiving and verifying identity data. The wallet should not isolate the holder to a single network. The wallet should allow the holder to have identity information that can be used between multiple identity networks where allowed by the networks.
 7. Accessibility - The wallet should avoid barriers to access its capabilities.
 Barriers to access may include financial, internet access (speed and continuity), device capabilities, visual impairments, literacy and interface design.  The wallet should conform to W3C accessibility standards for Web Content, User Agents and Accessible Rich Internet Applications.
-8. Governance - The wallet must provide information on the developers and governance model used.
-The wallet needs to specify the organizations or individuals who have developed and published the wallet. It must provide access to any wallet software lifecycle governance, open-source repositories and executed code audits.
-9. Transparency - The wallet holder should have access to transparent and verifiable information about the extent to which the wallet complies with the principles 1 through 8. 
-An ideal wallet will adhere to principles 1-8 perfectly. Due to technical limitations, business considerations or legal compliance, the wallet may not be able to comply. The wallet needs to inform the holder about any deviations, to these principles, in advance of any action that may put the holder’s private data at risk.
-10. Openness - 
-Practical implementations
+8. Governance - The wallet must provide information on the developers and governance model used. The wallet needs to specify the organizations or individuals who have developed and published the wallet. It must provide access to any wallet software lifecycle governance, open-source repositories and executed code audits.
+9. Transparency - The wallet holder should have access to transparent and verifiable information about the extent to which the wallet complies with the principles 1 through 8. An ideal wallet will adhere to principles 1-8 perfectly. Due to technical limitations, business considerations or legal compliance, the wallet may not be able to comply. The wallet needs to inform the holder about any deviations, to these principles, in advance of any action that may put the holder’s private data at risk.
+10. Openness - Practical implementations.  
+
 The principles outline an ideal wallet. The wallet developers can decide what level they support the first eight principles. The transparency principle should be used to identify the difference between ideal and implementation. Wallet developers may choose to limit their adoption of the principles due to technical limitations, development scope limitations, business decisions or regulatory compliance.  Providing the transparency allows the user to make an informed decision on their privacy. The principles should not be used to limit innovation, repress products or to banish new identity networks. 
 **April 2020**: Since the Sovrin Foundation is admits a transition to the ToIP Foundation, elements of the Master Document need to be extracted and captured for reuse within the ToIP FOundation. See [BBU Issue 11](https://github.com/bedrock-consortium/bbu-gf/issues/11).

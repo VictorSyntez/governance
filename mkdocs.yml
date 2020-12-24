@@ -1,14 +1,19 @@
 site_name: 'Canadian Credential Network Governance Framework'
 site_description: 'The Governance Framework for the Canadian Credential Network Utility as operated by the Canadian Credential Network Project within the Linux Foundation.'
+repo_url: https://github.com/CanaCred/governance
+repo_name: 'Canadian_Credential_Network_Governance_Framework'
 site_dir: 'html'
+remote_branch: gh-pages
 
 nav:
 - Informational:
-    - 'Introduction': 'index.md'
+    - 'Overview': 'index.md'
+    - 'Principles': 'gf_info/principles.md'
     - 'Purpose': 'gf_info/purpose.md'
     - 'Scope': 'gf_info/scope.md'
-    - 'Principles': 'gf_info/principles.md'
-    - 'Polices': 'gf_info/policies.md'
+    - 'Motivation': 'gf_info/transition.md'
+    - 'Membership': 'gf_info/membership.md'
+
     - 'Business Model': 'gf_info/business_model_concepts.md'
     - 'Membership': 'gf_info/membership.md'
 - Constitutional:
@@ -23,7 +28,7 @@ nav:
             - 'Economic Policies': 'gf_controlled/economic_policies.md'
             - 'Certification Mark Policies': 'gf_controlled/certification_mark_policies.md'
             - 'Trusted Network Polices': 'gf_controlled/trusted_network_policies.md'
-        -Canacred Network Rules:
+        - Canacred Network Rules:
             - 'Canacred Network Governing Rules': 'gf_controlled/governing_rules.md'
             - 'Canacred Network Business Rules': 'gf_controlled/business_rules.md'
             - 'Canacred Network Technical Rules': 'gf_controlled/technical_rules.md'
@@ -48,12 +53,12 @@ nav:
 
 plugins:
     - search
-    - pdf-export:
-        verbose: true
-        media_type: print
-        enabled_if_env: ENABLE_PDF_EXPORT
-        combined: true
-        combined_output_path: ../pdf/bedrock-business-utility-gf.pdf
+    # - pdf-export:
+       # verbose: true
+       # media_type: print
+       # enabled_if_env: ENABLE_PDF_EXPORT
+       # combined: true
+       # combined_output_path: ../pdf/bedrock-business-utility-gf.pdf
 
 theme:
     name: 'material'

@@ -72,7 +72,11 @@ Under Public Write Access policies, the requirement of a Transaction Endorser si
 
 ### Primary Legal Agreements
 
+<<<<<<< HEAD
 ![Canadian Credential Network Utility Governance Framework](../img/ccnu-gf.png)
+=======
+![Canacred Governance Framework](../img/ccnu_gh.png)
+>>>>>>> c6a39eef4958994e7f94c8f63936bb38989b46fa
 
 #### Participation Agreement
 
