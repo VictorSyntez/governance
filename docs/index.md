@@ -15,7 +15,7 @@ The Canacred is intended to serve organizations that desire to participate in [d
 * Be transparent in governance and operation
 
 To meet these requirements, the Canacred Utility operates pursuant to its own governance framework. Network members pay annual membership fees and provide supporting infrastructure to maintain a sustainable permissioned identity utility that is structured as an enterprise safe-space and purpose built for trusted ecosystem for verified credentials. The Network leverages an independent [Utility Service Provider](./gf_info/glossary.md) as a fee-based administrator for the delivery of a [DID Ledger](./gf_info/glossary.md) associated with a unique DID Root Namespace, ```did:ccn```.
-// TODO: Do we need to establish our own DID method?
+<!--// TODO: Do we need to establish our own DID method?-->
 
 This document serves as the *constitution* for the CCNU and represents the official CCNU Governance Framework (CCNU-GF).
 
