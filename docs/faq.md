@@ -44,8 +44,7 @@ The goals of the CCNU are based on a [number of motivating factors](./gf_info/tr
 4. Require adherence to specified open standards and protocols.
 
 ### Why is the CCNU not using a crypto/token payment model?
-<!--// TODO: Do we do anything related to token-free economics?
--->
+<!--// TODO: Do we do anything related to token-free economics? -->
  The CCNU will operate on [token-free economics](https://bedrock-consortium.github.io/bbu-gf/gf_info/transition/#token-free-economics) as the risks and sustainability of a public write token payment model have yet to be proven.
 
 ### What agreements is a member required to sign to join the CCNU?

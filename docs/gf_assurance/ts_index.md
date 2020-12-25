@@ -148,7 +148,7 @@ For the CCNU Governance Framework:
 1. The Canacred Governing Board has established the CCNU Governance Framework and this CCNU Trust Assurance Framework. It has created its own Policies and those it requires of Stewards in their Role within the CCNU.
 2. The Canacred Governing Board requires members to sign the contractual instruments and perform Self-Certification that the member is compliant with the [Canacred Member Business Policies](../gf_controlled/member_business_policies.md) and [Canacred Member Technical Policies](../gf_controlled/member_top.md). This Self-Certification is reviewed by the responsible Canacred Governing Body and reported to the Canacred Governing Board prior to approval of the Steward.
 
-// TODO: Creat Trust Assurance Matrix
+<!--// TODO: Creat Trust Assurance Matrix-->
 
 ### Trust Assurance Matrix
 The CCNU Trust Assurance Matrix is a tabbed spreadsheet which correlates existing CCNU Governance Framework Policy statements across CCNU Governance Framework documents and relevant stakeholders. This matrix is the foundation of self and third-party audits needed to verify compliance to the CCNU Governance Framework.
