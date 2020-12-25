@@ -45,7 +45,7 @@ nav:
             - 'Member Agreements': 'gf_legal/member_agreements.md'
             - 'Non-Member Agreements': 'gf_legal/non_member_agreements.md'
         - Compliance:
-            - 'Trust Assurance': 'gf_assurance/index.md'
+            - 'Trust Assurance': 'gf_assurance/ts_index.md'
 - Help:
     - 'FAQ': 'faq.md'
     - 'Contact us': 'contact_us.md'
