@@ -1,6 +1,6 @@
 ## Governing Body Policies
 
-This is a Controlled Document of the Bedrock Governance Framework was approved by the Canadian Credential Network Board of Directors.
+This is a Controlled Document of the Canacred Governance Framework will be approved by the Canadian Credential Network Board of Directors.
 
 | Document Name | Canadian Credential Network Governing Body Policies |
 | --- | --- |

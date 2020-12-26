@@ -3,32 +3,41 @@
 Unless otherwise noted, the CCN-GF is aligned with the principles outlined in ```Principles of SSI``` of the [Sovrin Governance Framework Working Group](https://docs.google.com/document/d/1GhcLeZEujX9h5gqrFNP-C1dMrS71EdCY4Uc1hGQbqI0/edit).  
 **December 2020**: CCN-GF leverage guiding principles introduced by [PCTF](https://diacc.ca/wp-content/uploads/2020/09/PCTF-Model-Final-Recommendation_V1.0.pdf)
 
-### Principles v 0.9
+## Principles v 0.9
 
-**Progressive profiling**
-**Privacy by Design**
-**Anti-oppressive Framework**
-Why do we need a Digital Identity Wallet set of principles?
-For the past 15 years or so governments, enterprises, social media giants, and software companies have been developing user identification and authentication mechanisms to provide secure access for their users to electronic or digital services. Over this time we have experienced technology advances in moving from simple and low strength username/password mechanisms to strong cryptographic and biometric authentication techniques, most recently facilitated by the almost universal adoption of smartphones.
-At the same time, we have seen the evolution of solutions from single service authentication systems (modelled on solutions designed for enterprise internal systems) to shared (or federated) authentication solutions using internet standard protocols such as SAML, Oauth 2.0, and OpenID Connect. Many Canadians are familiar with using their Google and Facebook accounts to access other provider’s services, thereby reducing the number of username/passwords they need to manage. In Canada, notable shared solutions in use by governments include the Concierge solution adopted by the Government of Canada and the BC Services Card solution available to all British Columbians.
-Most recently there has been significant development of blockchain based identity solutions that build upon the preceding technologies and promise to provide enhanced user experience, security, privacy, and utility for both service providers and their users. A key aspect of these new solutions is the presence of a digital software application held by the user, typically on their smartphone, that acts as a secure container for the user’s identity information, delivering both a strong authentication solution and provider of verifiable identity information (or credentials). It is this software application that many are referring to as the Digital Wallet.
-DIACC has made excellent progress in developing standards and practices with the Pan-Canadian Trust Framework™ (PCTF). However the PCTF does not directly address the implementation specific requirements for a trustworthy Digital Identity Wallet component.  In this new architecture it is critical that the digital identity wallet is indeed trustworthy and that Canadians are protected and know which digital identity wallets they can safely use. Service providers and relying parties in turn need to know that the information they manage is protected by digital identity wallet solutions.
-Of urgent concern is the development of a set of principles to underscore the need for security, privacy, and interoperability of these digital identity wallets. Without these guiding principles, there is great risk that wallet providers will deem it acceptable to sacrifice the areas of concern addressed by the principles for expediency or for business models that are detrimental to the wallet holders.  The lack of these guiding principles may result in slower adoption of the networks that the wallets are supporting.
-At the June 2020 DIACC Innovation Expert Committee meeting, it was proposed and accepted that a working group develop a draft Digital Identity Wallet Principles for review. This is a set of durable and high level principles for security, privacy, interoperability, agency and other aspects. These principles will need to be sufficiently high level that they will stand the test of time in supporting innovation and various business models but will also ensure that the needs of Canadians, Canadian businesses, and the public sector are met.  
-Digital Identity Wallet
-For the purpose of these principles, we define an identity wallet as an application that is used by an individual to hold and present their identity information. Identity might not be the sole purpose of the application, any application that provides identity services falls under these principles.  We do not assume a specific identity network or technology, these principles should cover any existing implementations as well as future approaches to identity.
+### Governance Framework Design Principles
 
-1. Privacy - A wallet holder must be provided privacy by default. The wallet must be developed with privacy built into the default settings and services. The wallet must ensure that the data and privacy of the wallet holder is protected, from their first point of contact, without the customer having to change any settings.
-2. Data Protection - A wallet holder must be provided data security for all data held on their device, in the cloud, in transmission or backed up. All personal data is securely collected, transmitted, processed, stored, and backed up. To protect users’ data from unauthorized disclosure, alteration or use, all data at rest or in transit must be protected using industry standard encryption and security processes.
-3. Agency - The wallet holder must be able to act independently and make their own choices. The data belongs to the wallet holder, they must be able to grant consent and be enabled to store, share, edit or remove their data as they see fit.  
-4. Verifiable - The wallet holder must be able to verify the authenticity of providers, relying parties, networks and the wallet itself. The wallet must provide the holder with full information about any party that the holder may engage in a relationship with. This includes information about the wallet developer and wallet certifications.
-5. Portable - The wallet must support standards to give agency to the holder to move their data to another wallet. The wallet cannot exclusively hold private data on the holder. The holder needs to be able to transfer their complete set of data in case of device obsolescence, disruption of service, changes in governance by the wallet developers or other factors that the holder calculates to be against their privacy, loss of agency or on a whim. The mechanisms for portability need to respect the principles already outlined.
-6. Interoperability - The wallet should support multiple networks for receiving and verifying identity data. The wallet should not isolate the holder to a single network. The wallet should allow the holder to have identity information that can be used between multiple identity networks where allowed by the networks.
-7. Accessibility - The wallet should avoid barriers to access its capabilities.
-Barriers to access may include financial, internet access (speed and continuity), device capabilities, visual impairments, literacy and interface design.  The wallet should conform to W3C accessibility standards for Web Content, User Agents and Accessible Rich Internet Applications.
-8. Governance - The wallet must provide information on the developers and governance model used. The wallet needs to specify the organizations or individuals who have developed and published the wallet. It must provide access to any wallet software lifecycle governance, open-source repositories and executed code audits.
-9. Transparency - The wallet holder should have access to transparent and verifiable information about the extent to which the wallet complies with the principles 1 through 8. An ideal wallet will adhere to principles 1-8 perfectly. Due to technical limitations, business considerations or legal compliance, the wallet may not be able to comply. The wallet needs to inform the holder about any deviations, to these principles, in advance of any action that may put the holder’s private data at risk.
-10. Openness - Practical implementations.  
+| **Interoperability and Portability** | **Risk and responsibilities**                |
+| ------------------------------------ | -------------------------------------------- |
+| **Equity and Inclusion**             | **Independent audit and assessment**         |
+| **Security and Privacy**             | **User-centric  design**                     |
+| **Transparency**                     | **Minimal Disclosure for a Constrained Use** |
+| **User control and consent**         | **Open and Automated systems**               |
 
-The principles outline an ideal wallet. The wallet developers can decide what level they support the first eight principles. The transparency principle should be used to identify the difference between ideal and implementation. Wallet developers may choose to limit their adoption of the principles due to technical limitations, development scope limitations, business decisions or regulatory compliance.  Providing the transparency allows the user to make an informed decision on their privacy. The principles should not be used to limit innovation, repress products or to banish new identity networks. 
-**April 2020**: Since the Sovrin Foundation is admits a transition to the ToIP Foundation, elements of the Master Document need to be extracted and captured for reuse within the ToIP FOundation. See [BBU Issue 11](https://github.com/bedrock-consortium/bbu-gf/issues/11).
+**Privacy by Design Principles**
+
+1. **Proactive not Reactive; Preventative not Remedial**
+   The Privacy by Design approach is characterized by proactive rather than reactive measures. It anticipates and prevents privacy invasive events before they happen. PbD does not wait for privacy risks to materialize, nor does it offer remedies for resolving privacy infractions once they have occurred − it aims to prevent them from occurring. In short, Privacy by Design comes before-the-fact, not after.
+
+2. **Privacy as the Default Setting** 
+   We can all be certain of one thing − the default rules! Privacy by Design seeks to deliver the maximum degree of privacy by ensuring that personal data are automatically protected in any given IT system or business practice. If an individual does nothing, their privacy still remains intact. No action is required on the part of the individual to protect their privacy − it is built into the system, by default.
+
+3. **Privacy Embedded into Design**
+   Privacy by Design is embedded into the design and architecture of IT systems and business practices. It is not bolted on as an add-on, after the fact. The result is that privacy becomes an essential component of the core functionality being delivered. Privacy is integral to the system, without diminishing functionality.
+
+4. **Full Functionality – Positive-Sum, not Zero-Sum**
+   Privacy by Design seeks to accommodate all legitimate interests and objectives in a positive-sum “win-win” manner, not through a dated, zero-sum approach, where unnecessary trade-offs are made. Privacy by Design avoids the pretence of false dichotomies, such as privacy vs. security, demonstrating that it is possible, and far more desirable, to have both.
+
+5. **End-to-End Security – Full Lifecycle Protection**
+   Privacy by Design, having been embedded into the system prior to the first element of information being collected, extends securely throughout the entire lifecycle of the data involved — strong security measures are essential to privacy, from start to finish. This ensures that all data are securely retained, and then securely destroyed at the end of the process, in a timely fashion. Thus, Privacy by Design ensures cradle to grave, secure lifecycle management of information, end-to-end.
+
+6. **Visibility and Transparency – Keep it Open**
+   Privacy by Design seeks to assure all stakeholders that whatever the business practice or technology involved, it is in fact, operating according to the stated promises and objectives, subject to independent verification. Its  component  parts  and  operations  remain  visible  and  transparent,  to  both  users  and  providers  alike. Remember, trust but verify!
+
+7. **Respect for User Privacy – Keep it User-Centric**
+   Above all, Privacy by Design requires architects and operators to keep the interests of the individual uppermost by  offering  such  measures  as  strong  privacy  defaults,  appropriate  notice,  and  empowering  user-friendly options. Keep it user-centric!
+
+**Anti-oppressive Practices**
+Work on better definition: 
+>  Anti-oppressive practice is by and large understood to be an omnibus term that includes, but is not limited to, diverse practice approaches like feminist, anti-racist, critical, radical, and structural frameworks. Anti-oppressive social work stands as such for a variety of theories and practices that adopt the perspective of social justice. It should thus more appropriately be considered to be a perspective or stance toward practice rather than a practice approach.
+> 
