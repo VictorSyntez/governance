@@ -17,12 +17,12 @@ This document lists all official governing bodies of the Canadian Credential Net
 
 1. All Canadian Credential Network Governing Bodies operate under the [Canadian Credential Network Governing Body Policies](./governing_body_policies.md).
 2. For access to the current membership roster, meeting information, agenda, and the minutes of any Canadian Credential Network Governing Body, follow the link to its meeting page.
-4. Unless otherwise noted, membership in any governing body is limited to Canadian Credential Network Members in good standing.
+3. Unless otherwise noted, membership in any governing body is limited to Canadian Credential Network Members in good standing.
 
 ## Governing Board
-The Canadian Credential Network Governing Board is the overall governing body of the Canadian Credential Network. The board is governed by the corporate bylaws. The Governing Board is composed of ```Governing Members``` who have the obligation to represent the interests of the Identity Owners of the Canadian Credential Network Community.
+The Canadian Credential Network Governing Board is the overall governing body of the Canadian Credential Network. The board is governed by the not-for-profit bylaws. The Governing Board is composed of ```Governing Members``` who have the obligation to represent the interests of the Identity Owners of the Canadian Credential Network Community.
 
-* **Charter Location**: [Participation Agreement (MS-WORD)](./contracts/bbu_participation_agreement.docx)
+* **Charter Location**: [Participation Agreement (MS-WORD)](../gf_legal/contracts/_dev/ccnu_participation_aggreement.docx)
 * **Suggested Participant Skills**: The strategic thinking leaders that have some degree of technical and business problem solving skills. People management and contract negotiation experience is a plus. A passion for understanding public identity utilities and a stakeholder in the success of an interoperable digital trust marketplace.
 
 It has sole authority for:
@@ -57,7 +57,7 @@ The Membership Committee has the following responsibilities:
 * **Charter Approval Date**: 2021-xx-xx
 * **Charter Location**: [Membership Committee Charter]()
 * **Meeting Page Location**: [Membership Committee Meeting Page]()
-* **Suggested Participant Skills**: Passion and willingness to learn of the foundational concepts of a public identity utility. Candidate should have strong communication and presentation skills. Persistent negotiation tactics are a plus. Basic tools like Google Docs, MS-Excel and MS-Word are required.
+* **Suggested Participant Skills**: Passion and willingness to learn of the foundational concepts of a public identity utility. Candidate should have strong communication and presentation skills. Persistent negotiation tactics are a plus. Basic tools like Google Docs, MS-Excel and MS-Word are required. Knowledge of tools like Markdown, Confluence, and GitHub are considered an asset.
 
 ### Finance Committee
 The Chair of this committee MUST be a representative of the Steward community.
