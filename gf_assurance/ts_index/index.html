@@ -1,0 +1,1434 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="The Governance Framework for the Canadian Credential Network Utility as operated by the Canadian Credential Network Project within the Linux Foundation.">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.6">
+    
+    
+      
+        <title>Trust Assurance - Canadian Credential Network Governance Framework</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6910b76c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.196e0c26.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#canadian-credential-network-trust-assurance-framework" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="Canadian Credential Network Governance Framework" class="md-header-nav__button md-logo" aria-label="Canadian Credential Network Governance Framework">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Canadian Credential Network Governance Framework
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Trust Assurance
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/CanaCred/governance/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Canadian_Credential_Network_Governance_Framework
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Canadian Credential Network Governance Framework" class="md-nav__button md-logo" aria-label="Canadian Credential Network Governance Framework">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Canadian Credential Network Governance Framework
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/CanaCred/governance/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Canadian_Credential_Network_Governance_Framework
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" >
+    <label class="md-nav__link" for="nav-1">
+      Informational
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Informational" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon"></span>
+        Informational
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../.." class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/principles/" class="md-nav__link">
+      Principles
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/purpose/" class="md-nav__link">
+      Purpose
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/scope/" class="md-nav__link">
+      Scope
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/motivation/" class="md-nav__link">
+      Motivation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/membership/" class="md-nav__link">
+      Membership
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/business_model_concepts/" class="md-nav__link">
+      Business Model
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/membership/" class="md-nav__link">
+      Membership
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    <label class="md-nav__link" for="nav-2">
+      Constitutional
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Constitutional" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Constitutional
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/masterdoc/" class="md-nav__link">
+      Master Document
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2" checked>
+    <label class="md-nav__link" for="nav-2-2">
+      Controlled Documents
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Controlled Documents" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        <span class="md-nav__icon md-icon"></span>
+        Controlled Documents
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_info/glossary/" class="md-nav__link">
+      Glossary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/governing_bodies/" class="md-nav__link">
+      Governing Bodies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/governing_body_policies/" class="md-nav__link">
+      Governing Body Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-4" type="checkbox" id="nav-2-2-4" >
+    <label class="md-nav__link" for="nav-2-2-4">
+      Canacred Network Policies
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Canacred Network Policies" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-4">
+        <span class="md-nav__icon md-icon"></span>
+        Canacred Network Policies
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/constitution.md" class="md-nav__link">
+      Canacred Network Constitution
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/by_laws/" class="md-nav__link">
+      Canacred Network Bylaws
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/economic_policies/" class="md-nav__link">
+      Economic Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/certification_mark_policies/" class="md-nav__link">
+      Certification Mark Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/trusted_network_policies/" class="md-nav__link">
+      Trusted Network Polices
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-5" type="checkbox" id="nav-2-2-5" >
+    <label class="md-nav__link" for="nav-2-2-5">
+      Canacred Network Rules
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Canacred Network Rules" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-5">
+        <span class="md-nav__icon md-icon"></span>
+        Canacred Network Rules
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/governing_rules/" class="md-nav__link">
+      Canacred Network Governing Rules
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/business_rules/" class="md-nav__link">
+      Canacred Network Business Rules
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/technical_rules/" class="md-nav__link">
+      Canacred Network Technical Rules
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-6" type="checkbox" id="nav-2-2-6" >
+    <label class="md-nav__link" for="nav-2-2-6">
+      Operating Policies
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Operating Policies" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-6">
+        <span class="md-nav__icon md-icon"></span>
+        Operating Policies
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/ledger_access_policies/" class="md-nav__link">
+      Ledger Access Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/ledger_data_polices/" class="md-nav__link">
+      Ledger Data Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/member_business_policies/" class="md-nav__link">
+      Steward Business Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/member_top/" class="md-nav__link">
+      Steward Technical and Organizational Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/endorser_business_policies/" class="md-nav__link">
+      Endorser Business Policies
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_controlled/endorser_top/" class="md-nav__link">
+      Endorser Technical and Organizational Policies
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-7" type="checkbox" id="nav-2-2-7" >
+    <label class="md-nav__link" for="nav-2-2-7">
+      Legal
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Legal" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-7">
+        <span class="md-nav__icon md-icon"></span>
+        Legal
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_legal/legal_arch/" class="md-nav__link">
+      Architecture
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_legal/legal_services/" class="md-nav__link">
+      Services
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_legal/member_agreements/" class="md-nav__link">
+      Member Agreements
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gf_legal/non_member_agreements/" class="md-nav__link">
+      Non-Member Agreements
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-2-8" type="checkbox" id="nav-2-2-8" checked>
+    <label class="md-nav__link" for="nav-2-2-8">
+      Compliance
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Compliance" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-2-8">
+        <span class="md-nav__icon md-icon"></span>
+        Compliance
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Trust Assurance
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Trust Assurance
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#canadian-credential-network-trust-assurance-framework" class="md-nav__link">
+    Canadian Credential Network Trust Assurance Framework
+  </a>
+  
+    <nav class="md-nav" aria-label="Canadian Credential Network Trust Assurance Framework">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assurance-requirements" class="md-nav__link">
+    Assurance Requirements
+  </a>
+  
+    <nav class="md-nav" aria-label="Assurance Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pre-production-phase" class="md-nav__link">
+    Pre-Production Phase
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#early-production-phase" class="md-nav__link">
+    Early Production Phase
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-production" class="md-nav__link">
+    General Production
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#versioning" class="md-nav__link">
+    Versioning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terminology" class="md-nav__link">
+    Terminology
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    Purpose
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-of-assurance" class="md-nav__link">
+    Level of Assurance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-elements" class="md-nav__link">
+    Trust Elements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ccnu-roles-making-trust-assertions" class="md-nav__link">
+    CCNU Roles Making Trust Assertions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-criteria" class="md-nav__link">
+    Trust Criteria
+  </a>
+  
+    <nav class="md-nav" aria-label="Trust Criteria">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#canacred-specific-trust-criteria" class="md-nav__link">
+    Canacred-Specific Trust Criteria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-evidence" class="md-nav__link">
+    Trust Evidence
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incident-records" class="md-nav__link">
+    Incident Records
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-actors" class="md-nav__link">
+    Trust Actors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-mechanisms" class="md-nav__link">
+    Trust Mechanisms
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-governance" class="md-nav__link">
+    Trust Governance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-assurance-matrix" class="md-nav__link">
+    Trust Assurance Matrix
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+    <label class="md-nav__link" for="nav-3">
+      Help
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Help" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Help
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../faq/" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../contact_us/" class="md-nav__link">
+      Contact us
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#canadian-credential-network-trust-assurance-framework" class="md-nav__link">
+    Canadian Credential Network Trust Assurance Framework
+  </a>
+  
+    <nav class="md-nav" aria-label="Canadian Credential Network Trust Assurance Framework">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assurance-requirements" class="md-nav__link">
+    Assurance Requirements
+  </a>
+  
+    <nav class="md-nav" aria-label="Assurance Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pre-production-phase" class="md-nav__link">
+    Pre-Production Phase
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#early-production-phase" class="md-nav__link">
+    Early Production Phase
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-production" class="md-nav__link">
+    General Production
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#versioning" class="md-nav__link">
+    Versioning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terminology" class="md-nav__link">
+    Terminology
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    Purpose
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-of-assurance" class="md-nav__link">
+    Level of Assurance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-elements" class="md-nav__link">
+    Trust Elements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ccnu-roles-making-trust-assertions" class="md-nav__link">
+    CCNU Roles Making Trust Assertions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-criteria" class="md-nav__link">
+    Trust Criteria
+  </a>
+  
+    <nav class="md-nav" aria-label="Trust Criteria">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#canacred-specific-trust-criteria" class="md-nav__link">
+    Canacred-Specific Trust Criteria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-evidence" class="md-nav__link">
+    Trust Evidence
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incident-records" class="md-nav__link">
+    Incident Records
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-actors" class="md-nav__link">
+    Trust Actors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-mechanisms" class="md-nav__link">
+    Trust Mechanisms
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-governance" class="md-nav__link">
+    Trust Governance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trust-assurance-matrix" class="md-nav__link">
+    Trust Assurance Matrix
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/CanaCred/governance/edit/master/docs/gf_assurance/ts_index.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  <h1>Trust Assurance</h1>
+                
+                <h2 id="canadian-credential-network-trust-assurance-framework">Canadian Credential Network Trust Assurance Framework<a class="headerlink" href="#canadian-credential-network-trust-assurance-framework" title="Permanent link">&para;</a></h2>
+<h3 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h3>
+<p>The Canadian Credential Network Utility ("CCNU") is intended to provide supporting infrastructure to maintain a sustainable permissioned identity utility that is structured as an enterprise safe-space and purpose built for trusted verified credentials relationship.</p>
+<p>Users of the CCNU, namely Holders, Issuers and Verifiers of digital credentials, expect a level of assurance pertaining to the reliability and integrity of the ledger. Those users who are members of the Canadian Credential Network have a vested interest understanding the level of assurance that can be assigned to the CCNU. Those users who seek public read-only access for verification purposes also desire an understanding the level of assurance to help set business verification polices but they do not have a stake in the network.</p>
+<h3 id="assurance-requirements">Assurance Requirements<a class="headerlink" href="#assurance-requirements" title="Permanent link">&para;</a></h3>
+<p>The CCNU aspires to ensure reliability, low processing latency, and a maximum uptime of the service. The Level of Assurance that can be asserted by the CCNU Governance Framework will evolve over time depending on a number of factors including:</p>
+<ul>
+<li>Member Compliance<ul>
+<li>Adherence to technical and operating policies operating policies</li>
+<li>Contract status</li>
+</ul>
+</li>
+<li>Ledger Reliability<ul>
+<li>Probability that verification requests (ledger reads)  will operate without failure for a specified number of transactions or for a specified period of time and within an acceptable response-time.</li>
+<li>Probability that transaction author requests (ledger writes) will operate without failure for a specified number of transactions or for a specified period of time and within an acceptable response-time.</li>
+</ul>
+</li>
+<li>Ecosystem Trust Factor</li>
+</ul>
+<p>As the CCNU matures towards a production ready and actively used ledger, the degree of assurance measures that will be in place will vary.</p>
+<h4 id="pre-production-phase">Pre-Production Phase<a class="headerlink" href="#pre-production-phase" title="Permanent link">&para;</a></h4>
+<ol>
+<li>No assurances for public use (read transactions).</li>
+<li>Membership status will be public through Canadian Credential Network website.</li>
+</ol>
+<h4 id="early-production-phase">Early Production Phase<a class="headerlink" href="#early-production-phase" title="Permanent link">&para;</a></h4>
+<ol>
+<li>No assurances for public use (read transactions).</li>
+<li>Membership status will be public through Canadian Credential Network website.</li>
+<li>Ledger Reliability expectations will be set and audit procedures will be established.</li>
+</ol>
+<h4 id="general-production">General Production<a class="headerlink" href="#general-production" title="Permanent link">&para;</a></h4>
+<ol>
+<li>No assurances for public use (read transactions).</li>
+<li>Membership status will be public through Canadian Credential Network website.</li>
+<li>Ledger Reliability expectations will be set and audit procedures will be established.</li>
+</ol>
+<h3 id="versioning">Versioning<a class="headerlink" href="#versioning" title="Permanent link">&para;</a></h3>
+<p>Each version of this document is tied to the CCNU Governance Framework at a specific point of time.</p>
+<h3 id="terminology">Terminology<a class="headerlink" href="#terminology" title="Permanent link">&para;</a></h3>
+<p>All terms in First Letter Capitals that are not defined in this document (as called out in a specific section) are defined in the <a href="../../gf_info/glossary/">Glossary</a>.</p>
+<h3 id="purpose">Purpose<a class="headerlink" href="#purpose" title="Permanent link">&para;</a></h3>
+<p>The purpose of the CCNU Trust Assurance Framework is to identify:</p>
+<ol>
+<li>The Trust Elements that Trust Actors assert in relationship to the CCNU.</li>
+<li>The CCNU Roles that assert and rely upon trust.</li>
+<li>Generally-Accepted, Canacred-Specific, or Domain-Specific Trust Criteria used in the evaluation of trust associated with the CCNU.</li>
+<li>The Trust Assertions that CCNU Roles make against Trust Criteria.</li>
+<li>The Trust Evidence that Trust Actors produce to create assurance regarding their trust assertions.</li>
+<li>The Trust Mechanisms in place to assert and evaluate trust.</li>
+<li>The process of Trust Governance whereby trust assertions are evaluated and deemed trustworthy, so they can be relied upon by Relying Parties (CCNU Consumers).</li>
+</ol>
+<h3 id="level-of-assurance">Level of Assurance<a class="headerlink" href="#level-of-assurance" title="Permanent link">&para;</a></h3>
+<p>This document describes the Level of Assurance a Relying Party can derive from the CCNU Governance Framework. This section defines the maximum level.</p>
+<p>The CCNU Governance Framework claims a <strong>maximum</strong> level of a <strong>reasonable</strong> Level of Assurance.</p>
+<p>In May 2013, the Committee of Sponsoring Organizations of the Treadway Commission (COSO)updated its <a href="https://na.theiia.org/standards-guidance/topics/documents/executive_summary.pdf">Internal Control—Integrated Framework</a> (the original framework). The original framework has gained broad acceptance and is widely used around the world. It is recognized as a leading framework for designing, implementing, and conducting internal control and assessing the effectiveness of internal control. Internal control is defined as follows:</p>
+<blockquote>
+<p>Internal control is a process, effected by an entity’s board of directors, management, and other personnel, designed to provide reasonable assurance regarding the achievement of objectives relating to operations, reporting, and compliance.</p>
+</blockquote>
+<p>This definition reflects certain fundamental concepts. Internal control is:</p>
+<ul>
+<li>Geared to the achievement of objectives in one or more categories—operations, reporting, and compliance</li>
+<li>A process consisting of ongoing tasks and activities — a means to an end, not an end in itself</li>
+<li>Effected by people — not merely about policy and procedure manuals, systems, and forms, but about people and the actions they take at every level of an organization to affect internal control</li>
+<li>Able to provide reasonable assurance — but not absolute assurance, to an entity’s senior management and board of directors</li>
+<li>Adaptable to the entity structure — flexible in application for the entire entity or for a particular subsidiary, division, operating unit, or business process. This definition is intentionally broad. It captures important concepts fundamental to how organizations design, implement, and conduct internal control, providing a basis for application across organizations that operate in different entity structures, industries, and geographic regions.</li>
+</ul>
+<p>The <a href="https://www.icaew.com/archive/technical/audit-and-assurance/assurance/process/scoping/assurance-decision/limited-assurance-vs-reasonable-assurance">ICAEW definition of a reasonable assurance audit engagement</a> is:
+Where the practitioner needs to reduce the assurance engagement risk (the risk that an inappropriate conclusion is expressed when the information on the subject matter is
+materially misstated) to an acceptably low level as the basis for a positive form of expression of the practitioner’s conclusion. Such risk is never reduced to nil and
+therefore, there can never be absolute assurance. Per the ICAEW guidance on management of risk and liability, relying parties may perceive less than reasonable assurance based on their evaluation of the CCNU Governance Framework and
+the CCNU Trust AssuranceFramework but not more.</p>
+<!--// TODO: Check with others how to include CPA *reasonalbe assurance* (defined as a high but not absolute level of    assurance)    about    whether    the    financial    statements    are    free from material misstatement.
+-->
+
+<h3 id="trust-elements">Trust Elements<a class="headerlink" href="#trust-elements" title="Permanent link">&para;</a></h3>
+<p>The following Trust Elements guide the development of specific Trust Criteria asserted by Trust Actors in the CCNU. These are based on the AICPA Trust Services Criteria based on
+COSO Internal Control - Integrated Framework, for use in attestation or consulting engagements to evaluate and report on controls over information and systems (a) across an
+entire entity; (b) at a subsidiary, division, or operating unit level; (c) within a function relevant to the entity's operational, reporting, or compliance objectives; or (d) for a particular type of information used by the entity.</p>
+<ul>
+<li>Security. Information and systems are protected against unauthorized access, unauthorized disclosure of information, and damage to systems that could compromise the availability,
+integrity, confidentiality, and privacy of information or systems and affect the entity’s ability to meet its objectives.</li>
+<li>Availability. Information and systems are available for operation and used to meet the entity’s objectives.</li>
+<li>Processing integrity. System processing is complete, valid, accurate, timely, and authorized to meet the entity’s objectives.</li>
+<li>Confidentiality. Information designated as confidential is protected to meet the entity’s objectives.</li>
+<li>Privacy. Personal information is collected, used, retained, disclosed, and disposed to meet the entity’s objectives.</li>
+</ul>
+<h3 id="ccnu-roles-making-trust-assertions">CCNU Roles Making Trust Assertions<a class="headerlink" href="#ccnu-roles-making-trust-assertions" title="Permanent link">&para;</a></h3>
+<p>The following CCNU Roles make Trust Assertions with regard to the Trust Elements to Relying Parties within the Canacred Community:</p>
+<ol>
+<li>Canadian Credential Network (including the Governing Board).</li>
+<li>Steward.</li>
+</ol>
+<h3 id="trust-criteria">Trust Criteria<a class="headerlink" href="#trust-criteria" title="Permanent link">&para;</a></h3>
+<h4 id="canacred-specific-trust-criteria">Canacred-Specific Trust Criteria<a class="headerlink" href="#canacred-specific-trust-criteria" title="Permanent link">&para;</a></h4>
+<p>For the CCNU Governance Framework, the only Trust Criteria in operation are self-developed by the Canadian Credential Network and appear in section 10 and in an Addendum to that document. It comprises governance Policies the Canadian Credential Network has set for itself and the <a href="../../gf_controlled/member_business_policies/">Canacred Member Business Policies</a> and <a href="../../gf_controlled/member_top/">Canacred Member Technical Policies</a> it mandates for Stewards.</p>
+<h3 id="trust-evidence">Trust Evidence<a class="headerlink" href="#trust-evidence" title="Permanent link">&para;</a></h3>
+<p>Trust assertions are empty without evidence to support it. The following are examples of Trust Evidence that are used to support Trust Assertions for the CCNU Governance Framework.</p>
+<ol>
+<li>Signed Contracts.</li>
+<li>Signed Agreements.</li>
+<li>Configurations.</li>
+<li>Signed Approvals.</li>
+<li>Policies.</li>
+<li>Procedures.</li>
+<li>Logs.
+    a. Security.
+    b. Application.
+    c. System.
+    d. Database.</li>
+</ol>
+<h3 id="incident-records">Incident Records<a class="headerlink" href="#incident-records" title="Permanent link">&para;</a></h3>
+<p>For the CCNU Governance Framework, see the Trust Assurance Matrix (Addendum) for the specific Trust Evidence used in this version of the CCNU Trust Assurance Framework.</p>
+<!-- //TODO: What is Trust Assurance Matrix (Addendum)?-->
+
+<h3 id="trust-actors">Trust Actors<a class="headerlink" href="#trust-actors" title="Permanent link">&para;</a></h3>
+<p>The following is the set of CCNU Entities who play a role in the CCNU Governance Framework in assessing and opining on Trust Assertions associated with the CCNU.</p>
+<ol>
+<li>
+<p>Governing Board. Issues the Policies within the CCNU Governance Framework and has the right to approve and suspend Stewards from the CCNU. It has the right to perform Self-Certification to evoke assurance from Relying
+Parties.</p>
+</li>
+<li>
+<p>Stewards. Agree to the Steward Agreement and perform Self-Certification of compliance with the Steward Business Policies and Steward Technical Policies.</p>
+</li>
+<li>
+<p>Legal Authorities. Enforce laws in the Jurisdictions of the Canadian Credential Network, its Stewards and mediates the Utility Agreements if challenged.</p>
+</li>
+</ol>
+<h3 id="trust-mechanisms">Trust Mechanisms<a class="headerlink" href="#trust-mechanisms" title="Permanent link">&para;</a></h3>
+<p>The following are actions that the Canadian Credential Network takes to assert and assure trust:</p>
+<ol>
+<li>Contracts and Agreements</li>
+<li>Self-Assertion
+    a. Canadian Credential Network Trust Criteria Compliance
+    b. Legal Compliance</li>
+</ol>
+<h3 id="trust-governance">Trust Governance<a class="headerlink" href="#trust-governance" title="Permanent link">&para;</a></h3>
+<p>The following is a graphical and procedural depiction on how trust asserted from CCNU Roles are currently received, assessed, and relied upon in the CCNU.</p>
+<!-- replace this file with Canacred TAF![taf](../img/trust-assurance-framework.png)-->
+
+<p>For the CCNU Governance Framework:</p>
+<ol>
+<li>The Canacred Governing Board has established the CCNU Governance Framework and this CCNU Trust Assurance Framework. It has created its own Policies and those it requires of Stewards in their Role within the CCNU.</li>
+<li>The Canacred Governing Board requires members to sign the contractual instruments and perform Self-Certification that the member is compliant with the <a href="../../gf_controlled/member_business_policies/">Canacred Member Business Policies</a> and <a href="../../gf_controlled/member_top/">Canacred Member Technical Policies</a>. This Self-Certification is reviewed by the responsible Canacred Governing Body and reported to the Canacred Governing Board prior to approval of the Steward.</li>
+</ol>
+<!--// TODO: Creat Trust Assurance Matrix-->
+
+<h3 id="trust-assurance-matrix">Trust Assurance Matrix<a class="headerlink" href="#trust-assurance-matrix" title="Permanent link">&para;</a></h3>
+<p>The CCNU Trust Assurance Matrix is a tabbed spreadsheet which correlates existing CCNU Governance Framework Policy statements across CCNU Governance Framework documents and relevant stakeholders. This matrix is the foundation of self and third-party audits needed to verify compliance to the CCNU Governance Framework.</p>
+<p>© 2020 by Canadian Credential Network. This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International License ( http://creativecommons.org/licenses/by-sa/4.0/ ).</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../../gf_legal/non_member_agreements/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Non-Member Agreements
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../../faq/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                FAQ
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2020
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.fd16492e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.7836ba4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
