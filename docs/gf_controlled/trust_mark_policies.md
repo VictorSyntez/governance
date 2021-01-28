@@ -1,4 +1,4 @@
-## Bedrock Trust Mark Policies
+## Canacred Trust Mark Policies
 
 This is a Controlled Document of the Canacred Governance Framework was approved by the Canadian Credential Network Board of Directors.
 
