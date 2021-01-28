@@ -137,11 +137,10 @@ The following Controlled Documents are normative components of the CCN-GF. All f
 | Ledger Transaction Data|  Defines the data and metadata process by a Steward Node | Technical Steering Committee |
 
 ### Specifications
-
+<!--Will we create our own did method or will we use others', for example Sovrin?-->
 | Document Name | Description | Governed By |
 | --- | --- | --- |
 | Decentralized Identifiers | [Specification for DIDs and DID documents](https://w3c-ccg.github.io/did-spec/) | W3C Credentials Community Group |  |
-<!--Will we create our own did method or will we use others', for example Sovrin?-->
 | CCN DID Method 1.0 Specification | Specification for the CCN DID Root Namespace. See [Issue 13](https://github.com/bedrock-consortium/bbu-gf/issues/13) |  Technical Steering Committee |
 | Verifiable Credentials Data Model 1.0 | [Specification for verifiable credentials](https://w3c.github.io/vc-data-model/) | W3C Verifiable Claims Working Group |
 
