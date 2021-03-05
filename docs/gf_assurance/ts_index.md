@@ -118,7 +118,6 @@ Trust assertions are empty without evidence to support it. The following are exa
 
 ### Incident Records
 For the CCNU Governance Framework, see the Trust Assurance Matrix (Addendum) for the specific Trust Evidence used in this version of the CCNU Trust Assurance Framework.
-<!-- //TODO: What is Trust Assurance Matrix (Addendum)?-->
 
 ### Trust Actors
 The following is the set of CCNU Entities who play a role in the CCNU Governance Framework in assessing and opining on Trust Assertions associated with the CCNU.
