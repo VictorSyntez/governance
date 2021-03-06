@@ -1,6 +1,6 @@
 # Steward Technical and Organizational Policies
 
-This is a Controlled Document of the Canadian Credential Network Governance Framework was approved by the Canadian Credential Network Board of Directors.
+This is a Controlled Document of the Canadian Credential Network Governance Framework will be approved by the Canadian Credential Network Board of Directors.
 
 | Document Name | Steward Technical and Organizational Policies |
 | --- | --- |

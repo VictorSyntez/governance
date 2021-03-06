@@ -1,9 +1,10 @@
-# Steward Business Policies
+# Member Business Policies
 
 This is a Controlled Document of the Canadian Credential Network Governance Framework was approved by the Canadian Credential Network Board of Directors.
 
-| Document Name | Steward Business Policies |
+| Document Name | Member Business Policies |
 | --- | --- |
+| Document Description | This document describes types of Trust Roles and membership available for organizations |
 | Version | v0.9 |
 | Approval Date | |
 | Status | Pre-Launch Phase: Governance Framework Development |
@@ -11,22 +12,54 @@ This is a Controlled Document of the Canadian Credential Network Governance Fram
 | Governed By | Canadian Credential Network Governance Framework Work Group |
 
 ## 1. Member Qualification
-See [Issue 21](https://github.com/bedrock-consortium/bbu-gf/issues/21) for review.
-
 ### General
 Prospective members MUST apply to the Governing Board and receive approval to be a Member of the Canadian Credential Network. See ```Application ``` process herein.
+
+There are several Trust Roles available for organizations: Steward, Registry, Trust Anchor, Issuer.
 
 ### Stewards
 Prospective members seeking qualification under a membership type that is assigned the responsibility of running a utility infrastructure node MUST be:
 
-1. A corporate member of The Linux Foundation.
-2. A business entity that is identifiable with at least one of the following business verification services:
-
+1. A business entity that is identifiable with at least one of the following business verification services:
     1. [Verifiable Organizations Network (VON)](https://vonx.io/)
-    2. [DUNS Number Lookup](https://www.dnb.com/duns-number/lookup.html) TBD
-    3. [Legal Entity Identifier Lookup](https://search.gleif.org/#/search/) TBD
+    2. [Legal Entity Identifier Lookup](https://search.gleif.org/#/search/) TBD
+2. --
+3. --
 
-### Subscribers
+### Trust Anchor
+
+Prospective members seeking qualification under a membership type that is assigned the responsibility of running a utility infrastructure node MUST be:
+
+1. A business entity that is identifiable with at least one of the following business verification services:
+   1. [Verifiable Organizations Network (VON)](https://vonx.io/)
+   2. [Legal Entity Identifier Lookup](https://search.gleif.org/#/search/) TBD
+2. --
+3. --
+
+### Registry
+
+Prospective members seeking qualification under a membership type that is assigned the responsibility of running a utility infrastructure node MUST be:
+
+1. A business entity that is identifiable with at least one of the following business verification services:
+   1. [Verifiable Organizations Network (VON)](https://vonx.io/)
+   2. [Legal Entity Identifier Lookup](https://search.gleif.org/#/search/) TBD
+2. A law firm, accounting firm, or other legally-regulated institution with at least three (3) years operating history.
+3. A governmental body or agency, or an entity predominantly owned and controlled by the state, in a Jurisdiction as defined in the [Glossary](../gf_info/glossary.md).
+4. --
+
+### Issuer
+
+Prospective members seeking qualification under a membership type that is assigned the responsibility of running a utility infrastructure node MUST be:
+
+1. A business entity that is identifiable with at least one of the following business verification services:
+   1. [Verifiable Organizations Network (VON)](https://vonx.io/)
+   2. [Legal Entity Identifier Lookup](https://search.gleif.org/#/search/) TBD
+2. --
+3. --
+
+
+
+<!-- ### Subscribers
 Prospective members seeking qualification as a Subscriber MUST be:
 
 1. A corporate or affiliate member of The Linux Foundation.
@@ -43,10 +76,10 @@ Prospective members seeking qualification as a Subscriber MUST be:
     1. A law firm, accounting firm, or other legally-regulated institution with at least five (5) years operating history.
     1. A non-governmental organization (NGO) or Social Purpose Organization with at least five (5) years operating history.
     1. An accredited university or other institution of higher education with at least five (5) years operating history.
-    1. A certificate authority (CA) with at least five (5) years operating history.
+    1. A certificate authority (CA) with at least five (5) years operating history. -->
 
 ## 2. Application Process
-See [Issue 22](https://github.com/bedrock-consortium/bbu-gf/issues/22).
+<!-- Create Application form -->
 
 ### Prospective Member
 To apply, an entity MUST submit a written application to the Membership Committee as directed on the Canadian Credential Network website.
@@ -56,9 +89,8 @@ The committee MUST:
 
 1. Ensurer that all specific Practices and Procedures involved in the Member application process are publicly documented on the Canadian Credential Network website.
 2. Ensure that Member application process follows the guidelines for Self-Certification, Certification, or Accreditation as specified by the Canadian Credential Network Trust Assurance Framework.
-3. Ensure that the application form available upon request and minimally publicly documented on the Consortium's BBU-GF source control repo and/or website.
-4. Notify the Linux Foundation of approved applications.
-5. Notify applicants of application approval/rejection status.
+3. Ensure that the application form available upon request and minimally publicly documented on the Canacred-GF source control repo and/or website.
+4. Notify applicants of application approval/rejection status.
 
 ### Governing Body
 The Governing Board MUST:
@@ -68,7 +100,7 @@ The Governing Board MUST:
 ## 3. Activation
 
 ### Stewards
-A Steward SHOULD submit a utility infrastructure node to the Identity Utility Administrator using the procedures outlined by the Technical Steering Committee after the following dependencies have been resolved:
+A Steward SHOULD submit a utility infrastructure node to the Identity Utility Administrator (Authorised Network Administrator) using the procedures outlined by the Technical Steering Committee after the following dependencies have been resolved:
 
 1. Have their application approved by the responsible Canadian Credential Network Governing Body.
 1. Complete the onboarding process with the Linux Foundation including the signature of all pertinent contractual instruments.

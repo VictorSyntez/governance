@@ -28,7 +28,7 @@ Some governing bodies may place diversity requirements on node owners. These req
 #### CCNU Perspective
 Any member of the Canadian Credential Network Utility that is [required  to host a utility infrastructure node](https://bedrock-consortium.github.io/bbu-gf/gf_info/membership/#membership-types) is considered a Steward and is responsible for the financial demands of hosting a node.  Such expenditures are considered out-of-pocket expenses and are not related to the members annual membership obligations. However, the BBU-GF does recognize the infrastructure contributions of Stewards and MUST adjust membership fees accordingly.
 
-Stewards MUST adhere to the [Member Technical and Organizational Policies](../gf_controlled/member_top.md) set forth in the Controlled Documents of the BBU-GF.
+Stewards MUST adhere to the [Member Technical and Organizational Policies](../gf_controlled/member_technical_policies.md) set forth in the Controlled Documents of the BBU-GF.
 
 ### Network Operation and Maintenance Services
 
