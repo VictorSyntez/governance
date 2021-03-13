@@ -13,10 +13,12 @@ This is a Controlled Document of the Bedrock Governance Framework was approved b
 ## 1. Declaration of Intent
 The Canadian Credential Network Utility (the "Utility") will operate with limited write access as specified by the Permissioned Write Access processing section declared herein.
 
-The scope of these policies pertains to the full corpus of **Utility Environments**, namely all the ledgers associated with the Canadian Credential Network Utility (i.e.: prod, test, dev).
+The scope of these policies pertains to the full corpus of **Utility Environments**, namely all the ledgers associated with the Canadian Credential Network Utility (i.e.: Production, Staging, Testing).
 
 ## 2. Recommended Reading
 The terms used in this Controlled Document are more fully explained in the [Glossary](../gf_info/glossary.md), as well as in the [Legal Architecture Overview](../gf_legal/legal_arch.md) which includes a visual diagram.
+
+<!-- TODO:Work through Legal Architecture Overview -->
 
 One topic pertinent to ledger access is the concept of a [Tombstone](https://jira.hyperledger.org/browse/INDY-2082). A Steward MAY, for regulatory or individual business requirements, determine that it needs to forbid access to a ledger entry and therefore require the ability to mark the subject entry as "deleted". While the Canadian Credential Network has taken action to minimize such risk by prohibiting public write access, a *Tombstone* provides an added protection mechanism that will help mitigate risk for Stewards who are contractually obligated to carry out read and write transactions.
 
@@ -53,7 +55,7 @@ Tombstones do not modify data on the ledger. Instead they impact the behavior of
 ### 3. Permissioned Write Access
 1. The scope of the policies defined in this section is defined as follows:
 	1. The policies in this section MUST apply to all Utility Environments.
-	1. The policies governing write access to non-production Utility Environments (i.e.: Dev, Test) MAY be defined separately by other Controlled Documents.
+	1. The policies governing write access to non-production Utility Environments (i.e.: Staging, Testing) MAY be defined separately by other Controlled Documents.
 2. Canadian Credential Network Trustees are permitted to write Transactions to the Utility under the following rules:
 	1. 	This policy MUST apply only to Trustees acting in their role as Trustees of the Canadian Credential Network.
 	1. 	A Trustee MUST only make the following Transactions if the Transaction has been approved by a motion of the Canadian Credential Network Board of Directors.
@@ -77,7 +79,7 @@ Tombstones do not modify data on the ledger. Instead they impact the behavior of
 1. Stewards MUST provide public read access without cost for all Transactions on the Utility unless marked by a Tombstone.
 1. Once Tombstone functionality has been:
 	3. implemented by the underlying ledger technology,
-	4. approved by the Bedrock Technical Steering Committee, and
+	4. approved by the Canacred Technical Steering Committee, and
 	5. approved by the Canadian Credential Network Board of Directors, a Steward MAY mark a Transaction as a Node-Specific Tombstone if:
 		1. Requested by the Transaction Author of a Transaction for a valid reason as specified by the Transaction Author Agreement.
 		1. Required of the Steward by a court order.

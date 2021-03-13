@@ -1,4 +1,6 @@
 # Glossary 
+## Foundational Glossaries
+
 The Canadian Credential Network is working on a convergence of industry terms between several glossary efforts, namely:
 
 * [PCTF Glossary Recommendation](https://diacc.ca/wp-content/uploads/2020/09/PCTF-Glossary-Final-Recommendation_V1.0.pdf)
@@ -9,7 +11,14 @@ The contents herein are considered additional terms specific to the **Canadian C
 
 >Note:
 
+## Canacred Glossary missing terms and definitions
+
+We will substitute term **member** with the term **participant**. We will have two types of **Participants**: **Contributors** - those with the write access and **Readers*** - those with the read access only.
+
+ Self-Certification, Certification, or Accreditation, Member Application Practices and Procedures, Identity Utility Administrator (Authorised Network Administrator), *Canacred Open Source Code*, Utility Service Provider, Hosting Provider, Validator and Observer Nodes, *Crisis Management Plan*, Network Interface Controller, Diffuse Trust Principle, High Availability Principle, Transaction Author, Data Controller, Data Processor, FIFO Waiting [list](https://queue-it.com/queue-first-in-first-out/)
+
 ## Abstract from  PCTF Glossary**:
+
 The PCTF Glossary provides definitions and examples for terms that appear across DIACC PCTF documentation. The content of the PCTF Glossary is:
 1. **Terms**–The words or phrases that appear frequently and that are used with a specific intent (i.e., not their everyday English meaning) in the PCTF documentation
 2. **Definitions**–A statement that provides the accepted and precise meaning of the associated term in the PCTF context

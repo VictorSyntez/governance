@@ -1,6 +1,6 @@
 # Member Business Policies
 
-This is a Controlled Document of the Canadian Credential Network Governance Framework was approved by the Canadian Credential Network Board of Directors.
+This is a Controlled Document of the Canadian Credential Network Governance Framework will be approved by the Canadian Credential Network Board of Directors.
 
 | Document Name | Member Business Policies |
 | --- | --- |
@@ -13,7 +13,7 @@ This is a Controlled Document of the Canadian Credential Network Governance Fram
 
 ## 1. Member Qualification
 ### General
-Prospective members MUST apply to the Governing Board and receive approval to be a Member of the Canadian Credential Network. See ```Application ``` process herein.
+Prospective members MUST apply to the Governing Board and receive approval to be a Member of the Canadian Credential Network. See ```Application ``` process below.
 
 There are several Trust Roles available for organizations: Steward, Registry, Trust Anchor, Issuer.
 
@@ -23,12 +23,13 @@ Prospective members seeking qualification under a membership type that is assign
 1. A business entity that is identifiable with at least one of the following business verification services:
     1. [Verifiable Organizations Network (VON)](https://vonx.io/)
     2. [Legal Entity Identifier Lookup](https://search.gleif.org/#/search/) TBD
-2. --
+    3. *Any other Canadian organization that keep registry of incorporations*
+2. A business officially incorporated in Canada for at least three (3) years
 3. --
 
 ### Trust Anchor
 
-Prospective members seeking qualification under a membership type that is assigned the responsibility of running a utility infrastructure node MUST be:
+Prospective members seeking qualification under a membership type that is assigned the responsibility of the Trust Anchor MUST be:
 
 1. A business entity that is identifiable with at least one of the following business verification services:
    1. [Verifiable Organizations Network (VON)](https://vonx.io/)
@@ -38,7 +39,7 @@ Prospective members seeking qualification under a membership type that is assign
 
 ### Registry
 
-Prospective members seeking qualification under a membership type that is assigned the responsibility of running a utility infrastructure node MUST be:
+Prospective members seeking qualification under a membership type that is assigned the responsibility of the Registry MUST be:
 
 1. A business entity that is identifiable with at least one of the following business verification services:
    1. [Verifiable Organizations Network (VON)](https://vonx.io/)
@@ -49,7 +50,7 @@ Prospective members seeking qualification under a membership type that is assign
 
 ### Issuer
 
-Prospective members seeking qualification under a membership type that is assigned the responsibility of running a utility infrastructure node MUST be:
+Prospective members seeking qualification under a membership type that is assigned the responsibility of the Issuer MUST be:
 
 1. A business entity that is identifiable with at least one of the following business verification services:
    1. [Verifiable Organizations Network (VON)](https://vonx.io/)
@@ -87,7 +88,7 @@ To apply, an entity MUST submit a written application to the Membership Committe
 ### Membership Committee
 The committee MUST:
 
-1. Ensurer that all specific Practices and Procedures involved in the Member application process are publicly documented on the Canadian Credential Network website.
+1. Ensure that all specific Practices and Procedures involved in the Member application process are publicly documented on the Canadian Credential Network website.
 2. Ensure that Member application process follows the guidelines for Self-Certification, Certification, or Accreditation as specified by the Canadian Credential Network Trust Assurance Framework.
 3. Ensure that the application form available upon request and minimally publicly documented on the Canacred-GF source control repo and/or website.
 4. Notify applicants of application approval/rejection status.
@@ -103,13 +104,12 @@ The Governing Board MUST:
 A Steward SHOULD submit a utility infrastructure node to the Identity Utility Administrator (Authorised Network Administrator) using the procedures outlined by the Technical Steering Committee after the following dependencies have been resolved:
 
 1. Have their application approved by the responsible Canadian Credential Network Governing Body.
-1. Complete the onboarding process with the Linux Foundation including the signature of all pertinent contractual instruments.
 
 Before a Member may qualify to have an active Validator Node on the Utility, the Member MUST:
 
 1. Pass any required tests on the Canadian Credential Network Test Network as specified by the Technical Steering Committee and documented in the Canadian Credential Network Code Repository.
 
-After a Member has qualified to have an active Validator Node, the Member MUST designate the Utility environment(s) (e.g., prod, test, dev) which their Node may be activated.
+After a Member has qualified to have an active Validator Node, the Member MUST designate the Utility environment(s) (e.g., production, Staging, Development) which their Node may be activated.
 
 1. The Member MUST make this designation following the procedures specified by the Technical Steering Committee.
 1. The Member MUST designate activation in at least one Utility environment.

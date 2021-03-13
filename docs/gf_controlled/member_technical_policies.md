@@ -2,7 +2,7 @@
 
 This is a Controlled Document of the Canadian Credential Network Governance Framework will be approved by the Canadian Credential Network Board of Directors.
 
-| Document Name | Members Technical Policies |
+| Document Name | Member Technical Policies |
 | --- | --- |
 | Version | v0.9 |
 | Approval Date | |
@@ -13,7 +13,7 @@ This is a Controlled Document of the Canadian Credential Network Governance Fram
 ## 1. Ledger Software Policies
 
 1. The Canadian Credential Network Board of Directors MUST decide the software technology and version used by all Nodes (Validator, Observer). This software is referred to as the *Canacred Open Source Code*.
-2. The Canadian Credential Network Board of Directors MUST require the TSC to establish best practices for continuous delivery and integration of the *Canacred Open Source Code* using containerization.
+2. The Canadian Credential Network Board of Directors MUST require the Technical Steering Committee (TSC) to establish best practices for continuous delivery and integration of the *Canacred Open Source Code* using containerization.
 3. The Canadian Credential Network Board of Directors MUST require the TSC and/or the Utility Service Provider to deploy an upgrade notification process that will allow Stewards to automatically recognized and act when upgrades are available.   
 4. The Canadian Credential Network Board of Directors MAY leverage the Technical Steering Committee (TSC) or another 3rd party service to maintain a version of the Canacred Open Source Code.
 5. The Canadian Credential Network Board of Directors SHOULD require the TSC and/or the Utility Service Provider to automate any prescribed tools that are expected to be used by a node.
@@ -35,15 +35,15 @@ This is a Controlled Document of the Canadian Credential Network Governance Fram
 ## 3. General Node Policies
 A Steward Node:
 
-1. MUST be available to run as a Validator Node or Observer Node on any of the formal ledgers associated with the Utility environments (i.e.: prod, stage, dev)
-1. MUST run a release of the Bedrock Open Source Code that has been approved and designated by the Bedrock Board of Directors and Technical Steering Committee (TSC).
-1. MUST facilitate an upgrade to a new version of the Bedrock Open Source Code within three (3) business days of a new release that has been:
+1. MUST be available to run as a Validator Node or Observer Node on any of the formal ledgers associated with the Utility environments (i.e.: production, staging, testing)
+1. MUST run a release of the Canacred Open Source Code that has been approved and designated by the Canacred Board of Directors and Technical Steering Committee (TSC).
+1. MUST facilitate an upgrade to a new version of the Canacred Open Source Code within three (3) business days of a new release that has been:
 
 	1. recommended by the TSC, and
 	2. accepted by the Canadian Credential Network.
 
 1. MUST register all Node configuration data in a timely manner and keep information up to date within three (3) business days of changes.
-1. MUST have at least two (2) IT-qualified persons assigned to administer the node, and at least one other person that has adequate access and training to administer the Node in an emergency, such as the network being unable to reach consensus or being under attack. See the TSC regarding specific *Crisis Management Plan* details. See [Issue 23](https://github.com/bedrock-consortium/bbu-gf/issues/23).
+1. MUST have at least two (2) IT-qualified persons assigned to administer the node, and at least one other person that has adequate access and training to administer the Node in an emergency, such as the network being unable to reach consensus or being under attack. See the TSC regarding specific *Crisis Management Plan* details. 
 1. MUST supply contact info for all administrators to the Canadian Credential Network, whose accuracy is tested at least quarterly (e.g., by acknowledging the receipt of an email or text within 24hrs).
 1. MUST recover the system from failure in one hour or less.
 
@@ -57,20 +57,20 @@ For all ledgers within the Utility environments list, the following requirements
 	1. MUST run on a mainstream hypervisor that receives timely patches from its vendor or community.
 	2. SHOULD apply hypervisor patches on a regular basis.
 
-3. The Node MUST run in an OS that is dedicated to the validator, i.e., a single-purpose (physical or virtual) machine that MUST run Bedrock Open Source Code, MAY run other software approved by the TSC, and MUST NOT run any other software. Software required to support the node, such as monitoring, backup, and configuration management software, are approved as a general category. However, Stewards should discuss with the TSC any software packages that transmit between the Steward Node and the outside.
+3. The Node MUST run in an OS that is dedicated to the validator, i.e., a single-purpose (physical or virtual) machine that MUST run Canacred Open Source Code, MAY run other software approved by the TSC, and MUST NOT run any other software. Software required to support the node, such as monitoring, backup, and configuration management software, are approved as a general category. However, Stewards should discuss with the TSC any software packages that transmit between the Steward Node and the outside.
 4. MUST run a server with compatible versions of the operating systems supported by the Hyperledger Indy Node requirements as documented in the release notes.
 5. MUST have adequate compute power (in late 2020, 8 or more cores is considered adequate).
 6. MUST have adequate RAM (in late 2020, 32 GB of RAM is considered adequate).
 7. MUST have at least 1 TB, with the ability to grow to 2 TB, of reliable (e.g., RAIDed) disk space, with an adequately sized boot partition.
 8. MUST have a high-speed connection to the internet with highly available, redundant pipes (as of late 2020, 100 Mbps was considered adequate).
-9. MUST have the following dedicated NICs:
+9. MUST have the following dedicated NICs <!-- Network Interface Controller -->:
 
 	1. a public NIC for all Validator-to-Validator consensus traffic that is a stable, static, world-routable IP address.
 	2. a private NIC for all CLI-to-Validator traffic
 
 10. MUST prevent traffic originating from the Validator node to reach the Validator's intranet domain.  
-11. MUST be implemented in a way that does not endanger Bedrock's high availability architecture, which is pool-based rather than node-based. Nodes should not take more responsibility for high availability than what is contemplated by the Node Selection Algorithm. For example, they should listen at exactly one pair of network addresses (see 3.9 above), using exactly one set of keys to respond to BBU/Indy protocol traffic at any one time, and adhere to a minimal failover recovery delay period specified by the Canadian Credential Network (or 30 seconds if not specified).
-12. MUST have a system clock that is demonstrably in sync with well-known NTP servers.
+11. MUST be implemented in a way that does not endanger Canacred's high availability architecture, which is pool-based rather than node-based. Nodes should not take more responsibility for high availability than what is contemplated by the Node Selection Algorithm. For example, they should listen at exactly one pair of network addresses (see 3.9 above), using exactly one set of keys to respond to CCNU/Indy protocol traffic at any one time, and adhere to a minimal failover recovery delay period specified by the Canadian Credential Network (or 30 seconds if not specified).
+12. MUST have a system clock that is demonstrably in sync with well-known NTP <!-- Network Time Protocol --> servers.
 13. SHOULD have a power supply consistent with high availability systems.
 
 
@@ -93,8 +93,6 @@ A Steward:
 9. MUST run a set of TSC prescribed tools and receive TSC approval of the results before the Node is authorized to participate in consensus.
 10. MUST run a set of TSC prescribed tools from time to time as requested by the TSC and provide the test results report to the TSC within three (3) business days.
 
-See [Issue 24](https://github.com/bedrock-consortium/bbu-gf/issues/24).
-
 ## 6. Node Operating Policies
 A Steward:
 
@@ -104,20 +102,20 @@ A Steward:
 
 ## 7. Node Selection Algorithm
 1. The TSC will take direction from the Canadian Credential Network Board of Directors, or a designated Canadian Credential Network Workgroup, regarding the configuration parameters associated with the deployment of the Node Selection Algorithm.
-1. The selection of active Validator Nodes at any point in time, at least on the BBU, MUST be governed by the Node Selection Algorithm.
+1. The selection of active Validator Nodes at any point in time, at least on the CCNU, MUST be governed by the Node Selection Algorithm.
 2. Non-technical inputs or policy decisions implemented by the Node Selection Algorithm MUST be approved by the Canadian Credential Network Board of Directors.
 3. At any point in time, the Node Selection Algorithm MUST represent the TSC’s best efforts at designing an algorithm that applies the Core Principles of the Canadian Credential Network Governance Framework. Recognizing the inherent tension and tradeoffs between some of the Core Principles, the design of this algorithm should give priority to balancing:
 
 	1. The Decentralization by Design principles, in particular the principles of Diffuse Trust and High Availability. See *Diversity Goals* below.
 	1. The Security by Design principles, in particular the principles of System Diversity and Secure Failure. See *Diversity Goals* below.
 
-4. A human-readable, understandable, and explainable description of the current design of the algorithm as approved by the TSC MUST be published by the TSC in the official Canadian Credential Network Foundation Code Repository and made visible to all Stewards via a web page on the Canadian Credential Network website.
+4. A human-readable, understandable, and explainable description of the current design of the algorithm as approved by the TSC MUST be published by the TSC in the official Canadian Credential Network Code Repository and made visible to all Stewards via a web page on the Canadian Credential Network website.
 
 ## 8. Reporting Policies
 1. A Steward MUST report to the responsible Canadian Credential Network Governing Body any substantive change to the configuration or location of a Node within five (5) business days of the change.
 
 ## 9. Diversity Goals
-While the *Node Selection Algorithm* will be *tuned* from time-to-time to address Performance as well as Decentralization Security by Design principles, the following diversity guidelines SHOULD be considered:
+While the *Node Selection Algorithm* will be *tuned* from time-to-time to address Performance as well as Decentralization and Security by Design principles, the following diversity guidelines SHOULD be considered:
 
 | Concern | Policy |
 | --- | --- |
@@ -144,6 +142,6 @@ While the *Node Selection Algorithm* will be *tuned* from time-to-time to addres
 	4. Assuming an Active Validator Pool of 25, this would imply that no more than 8 nodes should be hosted on any one IaaS.
 
 ### Hosting Provider Policy
-The relationship between a Steward and a Hosting Provider is outside the scope of the BBU-GF. Hosting provider decisions have financial impacts on Stewards and as a result the Consortium SHOULD NOT insert itself into that decision making process.
+The relationship between a Steward and a Hosting Provider is outside the scope of the CCNU-GF. Hosting provider decisions have financial impacts on Stewards and as a result the Canadian Credential Network SHOULD NOT insert itself into that decision making process.
 
-While no restrictions are suggested, a Steward SHOULD expect hosting providers to offer multi-cloud hosting options for  Indy-Node SaaS services so that IaaS policies can be observed across the BBU.
+While no restrictions are suggested, a Steward SHOULD expect hosting providers to offer multi-cloud hosting options for  Indy-Node SaaS services so that IaaS policies can be observed across the CCNU.

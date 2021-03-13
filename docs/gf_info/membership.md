@@ -13,14 +13,14 @@ In order to efficiently operate the ledger associated with the Utility, a combin
 
 | Framework Facet | Required Quantity | Comment |
 | --- | --- | --- |
-| Governing Board Seats | 7 | Minimum Governing Members. Governing Board seats can increase but MUST not exceed 15 |
+| Governing Board Seats | 7 | Minimum Governing Contributors. Governing Board seats can increase but MUST not exceed 15 |
 | Minimum Production Pool Size  | 19 | Considers production and Governing Board factors. |
 | Minimum Test Pool Size  | 3| Ledger used by Utility Service Provider and Wallet Project contributors.  |
-| Minimum Development Pool Size | 3 | Ledger used by Utility Service Provider and Wallet Project contributors.||
+| Minimum Development Pool Size | 3 | Ledger used by Utility Service Provider and Wallet Project contributors.|
 | Minimum Total Pool Size | 25 | Considers requirements across all environments. |
 
 ### Steward Population Dynamics
-The number of Board of Director seats SHOULD be consistent as the population of Stewards (Governing and Operational Members) increases.
+The number of Board of Director seats SHOULD be consistent as the population of Stewards (Governing and Operational Contributors) increases.
 
 | Board of Director Seats	| Required Stewards |	BoD%|
 | --- | --- | --- |
@@ -30,24 +30,24 @@ The number of Board of Director seats SHOULD be consistent as the population of 
 |13	|52	|0.25|
 |15	|60	|0.25|
 
-The Governing Board maintains a **FIFO Waiting List** of Operational Members that have maintained consistent membership. Position on the waiting list is based upon date of membership of the Operational Member. This list shall be used to offer new Governing Board seats upon availability due to attrition or growth.
+The Governing Board maintains a **FIFO Waiting List** of Operational Contributors that have maintained consistent participation. Position on the waiting list is based upon date of membership of the Operational Contributor. This list shall be used to offer new Governing Board seats upon availability due to attrition or growth.
 
 ## Membership Types
-Building on our [Glossary](./glossary.md), participants in the Consortium are referred to as *Trust Community Members*. These business entities agreed to participate in the *Trust Community* known as the Canadian Credential Network. Participation in the Consortium is possible via formal legal contracts or membership agreements.
+Building on our [Glossary](./glossary.md), participants in the Canacred are referred to as *Trust Community Participants. These business entities agreed to participate in the *Trust Community* known as the Canadian Credential Network. Participation in the Canacred is possible via formal legal contracts or participation agreements.
 
-### Annual Membership
-Membership details herein provide a synopsis of the information outlined in "Exhibit B" and "Exhibit C" of the Canadian Credential Network Charter within the [Canadian Credential Network Participation Agreement](../gf_legal/contracts/bbu_partnership_agreement.docx) (the "Participation Agreement").
+### Annual Participation
+Participation details herein provide a synopsis of the information outlined in "Exhibit B" and "Exhibit C" of the Canadian Credential Network Charter within the [Canadian Credential Network Participation Agreement](../gf_legal/contracts/bbu_partnership_agreement.docx) (the "Participation Agreement").
 
 Private sector entities (businesses) can join and renew membership on an annual basis under three possible membership types:
 
-| Membership Type | Validator Node Hosting Required | Required Governing Body Participation  | Authorized Endorser Privileges (Ledger Writes) |
+| Participation Type | Validator Node Hosting Required | Required Governing Body Participation  | Authorized Endorser Privileges (Ledger Writes) |
 | --- | --- | --- | --- |
-| Governing Member | Yes - 1 | Yes - 1 Person Per Governing Body |Yes - Unlimited |
-| Operational Member | Yes - 1 | Yes - 2 Persons |Yes - Unlimited |
-| Subscriber | No | No | Yes - Limited |
+| Governing Contributor | Yes - 1 | Yes - 1 Person Per Governing Body |Yes - Unlimited |
+| Operational Contributor | Yes - 1 | Yes - 2 Persons |Yes - Unlimited |
+| Contributors | No | No | Yes - Limited |
 
-1. Governing Member:
-    * **Description**: Members that are willing to contribute to the infrastructure, management, and financial needs of the Utility.
+1. Governing Contributor:
+    * **Description**: Contributors that are willing to help with the infrastructure, management, and financial needs of the Utility.
     * **Obligations**:
         1. MUST host one or more utility infrastructure *Validator Nodes* as defined in ```Exhibit C``` of the Participation Agreement.
         2. MUST sign the required Utility Agreements as set forth in ```Exhibit B``` of the Participation Agreement.
@@ -58,15 +58,15 @@ Private sector entities (businesses) can join and renew membership on an annual 
         3. MAY act, pending signed Utility Agreements, as a Transaction Endorser.
         4. MAY write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Participation Agreement.
     * **Restrictions**:
-        1. Membership is limited to the number of Board of Director seats available.
+        1. Participation is limited to the number of Board of Director seats available.
         2. A FIFO waiting list is maintained by Governing Board to allow for new members to fill voids left by exiting members.
-        3. Utility Service Providers MAY NOT be a Governing Member.
+        3. Utility Service Providers MAY NOT be a Governing Contributor.
         4. Utility Service Providers MAY NOT participate in the Finance Committee.
 
-    From 12 months after the inception of the Directed Fund, or from such other point in time as the Governing Board may decide, a new Member may join the Directed Fund as a Governing Member only if the total number of Governing Board Members (including the new Member in this count) is equal to or less than 25% of the total number of Stewards of the Utility (e.g., the total of Governing Members and Operational Members).  The Directed Fund will maintain a waiting list of Operational Members that wish to become Governing Members, and new Governing Member spots will be allocated according to seniority of Operational Member status among Operational Members on the waiting list.
+    From 12 months after the inception of the Directed Fund, or from such other point in time as the Governing Board may decide, a new Member may join the Directed Fund as a Governing Contributor only if the total number of Governing Board Contributors (including the new Contributor in this count) is equal to or less than 25% of the total number of Stewards of the Utility (e.g., the total of Governing Contributors and Operational Contributors).  The Directed Fund will maintain a waiting list of Operational Contributors that wish to become Governing Contributors, and new Governing Contributors spots will be allocated according to seniority of Operational Contributors status among Operational Contributors on the waiting list.
 
-2. Operational Member
-    * **Description**: Members that are willing to contribute to the infrastructure, management, and financial needs of the Network. Minimally, this requires the member to contribute a *Validator Node* to the operation of the Ledger.
+2. Operational Contributor
+    * **Description**: Contributors that are willing to help with the infrastructure, management, and financial needs of the Network. Minimally, this requires the contributor to contribute a *Validator Node* to the operation of the Ledger.
     * **Obligations**:
         1. MUST host one or more utility infrastructure *Validator Nodes* as defined in ```Exhibit C``` of the Participation Agreement.
         2. MUST sign the required Utility Agreements as set forth in ```Exhibit B``` of the Participation Agreement.
@@ -75,12 +75,12 @@ Private sector entities (businesses) can join and renew membership on an annual 
         1. MAY appoint a representative to any Committee.
         2. MAY act, pending signed Utility Agreements, as a Transaction Endorser.
         3. MAY write Transactions as a Transaction Endorser as defined in ```Exhibit C``` of the Participation Agreement.
-        4. MAY request to be added to the Governing Member waiting list.
+        4. MAY request to be added to the Governing Contributor waiting list.
     * **Restrictions**:
-        1. Membership is limited to the number of nodes required to maintain optimal consensus performance. The optimal limit here must take into consideration a balance with decentralization requirements. The Governing Board will annually determine the number of nodes required to meet both consensus, decentralization, and budgetary requirements.
+        1. Participation is limited to the number of nodes required to maintain optimal consensus performance. The optimal limit here must take into consideration a balance with decentralization requirements. The Governing Board will annually determine the number of nodes required to meet both consensus, decentralization, and budgetary requirements.
 
-3. Subscriber
-    * **Description**: Members that are willing to be responsible for the endorsement of transactions to the ledger.
+3. Contributors
+    * **Description**: Contributors that are willing to be responsible for the endorsement of transactions to the ledger.
     * **Entitlements**:
         1. MAY appoint a representative to any Committee.
         2. MAY act, pending signed Utility Agreements, as a Transaction Endorser.
@@ -90,7 +90,7 @@ Private sector entities (businesses) can join and renew membership on an annual 
     1. Participate in Directed Fund general meetings, initiatives, events and any other activities; and
     2. Identify themselves as members of the Canadian Credential Network Utility Fund supporting the Canadian Credential Network community.
 
-### Members and non-Members
+### Participants and non-participants
 
 1. Transaction Author
     * **Description**: Any entity that is the submitter of a write transaction in support of using the ledger for decentralized identity interactions.
@@ -98,7 +98,7 @@ Private sector entities (businesses) can join and renew membership on an annual 
         1. MUST sign the required *Transaction Author Agreement* as set forth in ```Exhibit B``` of the Participation Agreement.
         2. MAY interact with a *Transaction Endorser* for the processing of write requests to the ledger.
     * **Restrictions**:
-        1. Can only submit those transaction types outlined in the [BBU Constitution](https://bedrock-consortium.github.io/bbu-gf/gf_info/masterdoc/), specifically the [ledger access policies](../gf_controlled/ledger_access_policies.md) and [ledger data policies](../gf_controlled/ledger_data_policies.md).
+        1. Can only submit those transaction types outlined in the [CCNU Constitution](https://github.com/CanaCred/governance/blob/master/docs/gf_info/masterdoc.md), specifically the [ledger access policies](../gf_controlled/ledger_access_policies.md) and [ledger data policies](../gf_controlled/ledger_data_policies.md).
     * **Entitlements**:
         1. Ability to use ledger for decentralized identity interactions.  
 
