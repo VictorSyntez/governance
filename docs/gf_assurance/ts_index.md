@@ -71,21 +71,16 @@ This definition reflects certain fundamental concepts. Internal control is:
 * Adaptable to the entity structure — flexible in application for the entire entity or for a particular subsidiary, division, operating unit, or business process. This definition is intentionally broad. It captures important concepts fundamental to how organizations design, implement, and conduct internal control, providing a basis for application across organizations that operate in different entity structures, industries, and geographic regions.
 
 The [ICAEW definition of a reasonable assurance audit engagement](https://www.icaew.com/archive/technical/audit-and-assurance/assurance/process/scoping/assurance-decision/limited-assurance-vs-reasonable-assurance) is:
-Where the practitioner needs to reduce the assurance engagement risk (the risk that an inappropriate conclusion is expressed when the information on the subject matter is
-materially misstated) to an acceptably low level as the basis for a positive form of expression of the practitioner’s conclusion. Such risk is never reduced to nil and
-therefore, there can never be absolute assurance. Per the ICAEW guidance on management of risk and liability, relying parties may perceive less than reasonable assurance based on their evaluation of the CCNU Governance Framework and
-the CCNU Trust AssuranceFramework but not more.
+Where the practitioner needs to reduce the assurance engagement risk (the risk that an inappropriate conclusion is expressed when the information on the subject matter is materially misstated) to an acceptably low level as the basis for a positive form of expression of the practitioner’s conclusion. Such risk is never reduced to nil and therefore, there can never be absolute assurance. Per the ICAEW guidance on management of risk and liability, relying parties may perceive less than reasonable assurance based on their evaluation of the CCNU Governance Framework and the CCNU Trust AssuranceFramework but not more.
 
 <!--// TODO: Check with others how to include CPA *reasonalbe assurance* (defined as a high but not absolute level of    assurance)    about    whether    the    financial    statements    are    free from material misstatement.
 -->
 
 ### Trust Elements
-The following Trust Elements guide the development of specific Trust Criteria asserted by Trust Actors in the CCNU. These are based on the AICPA Trust Services Criteria based on
-COSO Internal Control - Integrated Framework, for use in attestation or consulting engagements to evaluate and report on controls over information and systems (a) across an
+The following Trust Elements guide the development of specific Trust Criteria asserted by Trust Actors in the CCNU. These are based on the AICPA Trust Services Criteria based on COSO Internal Control - Integrated Framework, for use in attestation or consulting engagements to evaluate and report on controls over information and systems (a) across an
 entire entity; (b) at a subsidiary, division, or operating unit level; (c) within a function relevant to the entity's operational, reporting, or compliance objectives; or (d) for a particular type of information used by the entity.
 
-* Security. Information and systems are protected against unauthorized access, unauthorized disclosure of information, and damage to systems that could compromise the availability,
-integrity, confidentiality, and privacy of information or systems and affect the entity’s ability to meet its objectives.
+* Security. Information and systems are protected against unauthorized access, unauthorized disclosure of information, and damage to systems that could compromise the availability, integrity, confidentiality, and privacy of information or systems and affect the entity’s ability to meet its objectives.
 * Availability. Information and systems are available for operation and used to meet the entity’s objectives.
 * Processing integrity. System processing is complete, valid, accurate, timely, and authorized to meet the entity’s objectives.
 * Confidentiality. Information designated as confidential is protected to meet the entity’s objectives.
@@ -96,10 +91,11 @@ The following CCNU Roles make Trust Assertions with regard to the Trust Elements
 
 1. Canadian Credential Network (including the Governing Board).
 2. Steward.
+3. Trust Anchor
 
 ### Trust Criteria
 #### Canacred-Specific Trust Criteria
-For the CCNU Governance Framework, the only Trust Criteria in operation are self-developed by the Canadian Credential Network and appear in section 10 and in an Addendum to that document. It comprises governance Policies the Canadian Credential Network has set for itself and the [Canacred Member Business Policies](../gf_controlled/member_business_policies.md) and [Canacred Member Technical Policies](../gf_controlled/member_top.md) it mandates for Stewards.
+For the CCNU Governance Framework, the only Trust Criteria in operation are self-developed by the Canadian Credential Network and appear in section 10 and in an Addendum to that document. It comprises governance Policies the Canadian Credential Network has set for itself and the [Canacred Member Business Policies](../gf_controlled/member_business_policies.md) and [Canacred Member Technical Policies](../gf_controlled/member_technical_policies.md) it mandates for Stewards.
 
 ### Trust Evidence
 Trust assertions are empty without evidence to support it. The following are examples of Trust Evidence that are used to support Trust Assertions for the CCNU Governance Framework.
@@ -116,9 +112,9 @@ Trust assertions are empty without evidence to support it. The following are exa
     c. System.
     d. Database.
 
-### Incident Records
-For the CCNU Governance Framework, see the Trust Assurance Matrix (Addendum) for the specific Trust Evidence used in this version of the CCNU Trust Assurance Framework.
-<!-- //TODO: What is Trust Assurance Matrix (Addendum)?-->
+<!-- Incident Records
+
+For the CCNU Governance Framework, see the Trust Assurance Matrix (Addendum) for the specific Trust Evidence used in this version of the CCNU Trust Assurance Framework.  -->
 
 ### Trust Actors
 The following is the set of CCNU Entities who play a role in the CCNU Governance Framework in assessing and opining on Trust Assertions associated with the CCNU.
@@ -146,11 +142,11 @@ The following is a graphical and procedural depiction on how trust asserted from
 For the CCNU Governance Framework:
 
 1. The Canacred Governing Board has established the CCNU Governance Framework and this CCNU Trust Assurance Framework. It has created its own Policies and those it requires of Stewards in their Role within the CCNU.
-2. The Canacred Governing Board requires members to sign the contractual instruments and perform Self-Certification that the member is compliant with the [Canacred Member Business Policies](../gf_controlled/member_business_policies.md) and [Canacred Member Technical Policies](../gf_controlled/member_top.md). This Self-Certification is reviewed by the responsible Canacred Governing Body and reported to the Canacred Governing Board prior to approval of the Steward.
+2. The Canacred Governing Board requires members to sign the contractual instruments and perform Self-Certification that the member is compliant with the [Canacred Member Business Policies](../gf_controlled/member_business_policies.md) and [Canacred Member Technical Policies](../gf_controlled/member_technical_policies.md). This Self-Certification is reviewed by the responsible Canacred Governing Body and reported to the Canacred Governing Board prior to approval of the Steward.
 
 <!--// TODO: Creat Trust Assurance Matrix-->
 
 ### Trust Assurance Matrix
-The CCNU Trust Assurance Matrix is a tabbed spreadsheet which correlates existing CCNU Governance Framework Policy statements across CCNU Governance Framework documents and relevant stakeholders. This matrix is the foundation of self and third-party audits needed to verify compliance to the CCNU Governance Framework.
+The CCNU Trust Assurance Matrix will be based on Pan-Canadian Conformance Criteria for Identity management. This matrix will be the foundation of self and third-party audits needed to verify compliance to the CCNU Governance Framework.
 
 © 2020 by Canadian Credential Network. This work is licensed under Creative Commons Attribution-ShareAlike 4.0 International License ( http://creativecommons.org/licenses/by-sa/4.0/ ).

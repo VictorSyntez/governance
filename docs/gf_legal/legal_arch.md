@@ -51,7 +51,7 @@ We'll replace it
 
 ### Stewards
 
-Stewards are trusted institutions who operate a Node of the Utility. Stewards MUST meet the qualifications specified in [Member Business Policies](../gf_controlled/member_business_policies.md) and [Member Technical and Organizational Policies](../gf_controlled/member_top.md). Stewards must enter into both the Steward Agreement and the Steward Data Processing Agreement with the Canadian Credential Network. Stewards are automatically qualified to be Transaction Endorsers but they MUST sign the appropriate Transaction Endorser contracts with the Canadian Credential Network.
+Stewards are trusted institutions who operate a Node of the Utility. Stewards MUST meet the qualifications specified in [Member Business Policies](../gf_controlled/member_business_policies.md) and [Member Technical and Organizational Policies](../gf_controlled/member_technical_policies.md). Stewards must enter into both the Steward Agreement and the Steward Data Processing Agreement with the Canadian Credential Network. Stewards are automatically qualified to be Transaction Endorsers but they MUST sign the appropriate Transaction Endorser contracts with the Canadian Credential Network.
 
 ### Utility Access Policies
 
