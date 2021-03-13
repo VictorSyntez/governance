@@ -1,4 +1,4 @@
-# Canadian Credential Network Constitution
+   A By-law relating generally to the conduct of the affairs of
 
 The Canadian Credential Network Charter, as represented in "Exhibit B" of the [Canadian Credential Network Participation Agreement](../gf_legal/contracts/_dev/ccnu_participation_aggreement.docx), describes the charter of the **Canadian Credential Network**.
 
