@@ -15,7 +15,37 @@ The contents herein are considered additional terms specific to the **Canadian C
 
 We will substitute term **member** with the term **participant**. We will have two types of **Participants**: **Contributors** - those with the write access and **Readers*** - those with the read access only.
 
- Self-Certification, Certification, or Accreditation, Member Application Practices and Procedures, Identity Utility Administrator (Authorised Network Administrator), *Canacred Open Source Code*, Utility Service Provider, Hosting Provider, Validator and Observer Nodes, *Crisis Management Plan*, Network Interface Controller, Diffuse Trust Principle, High Availability Principle, Transaction Author, Data Controller, Data Processor, FIFO Waiting [list](https://queue-it.com/queue-first-in-first-out/)
+Self-Certification, 
+
+Certification or Accreditation, 
+
+Participation Application Practices and Procedures, 
+
+Identity Utility Administrator (Authorised Network Administrator), 
+
+*Canacred Open Source Code*, 
+
+Utility Service Provider, 
+
+Hosting Provider,
+
+ Validator and Observer Nodes, 
+
+*Crisis Management Plan*, 
+
+Network Interface Controller, 
+
+Diffuse Trust Principle, 
+
+High Availability Principle, 
+
+Transaction Author, 
+
+Data Controller, 
+
+Data Processor, 
+
+FIFO Waiting [list](https://queue-it.com/queue-first-in-first-out/)
 
 ## Abstract from  PCTF Glossary**:
 
