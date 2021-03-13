@@ -9,7 +9,7 @@ The [Linux Foundation](https://www.linuxfoundation.org/) (the “LF”) is dedic
 Activity Type | Entity Name | Legal Structure | Purpose |
 | --- | --- | --- | --- |
 | Utility | Canadian Credential Network Utility | Canadian Credential Network not for profit | The **Canadian Credential Network Utility ("CCNU")** is an independent self-governed public identity utility enabled by the utility agreements, a collection of legal instruments specified under a governance framework. |
-| Wallet Project | Canacred Wallet Project | *in development*  | An LF affiliate entity that hosts open source projects such as the **Canacred Wallet Project**. |
+| Wallet Project | Canacred Wallet Project | *in development*  | *in development* |
 
 ### Legal Entity Registration
 The *Canadian Credential Network* (the “Canacred”), is a not for profit Canadian project. The Canacred will establish The Utility Fund that will serve two purposes:
