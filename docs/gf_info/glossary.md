@@ -29,7 +29,7 @@ Utility Service Provider,
 
 Hosting Provider,
 
- Validator and Observer Nodes, 
+Validator and Observer Nodes, 
 
 *Crisis Management Plan*, 
 
@@ -46,6 +46,14 @@ Data Controller,
 Data Processor, 
 
 FIFO Waiting [list](https://queue-it.com/queue-first-in-first-out/)
+
+Trust Anchor
+
+Registry
+
+**?** Trust Mechanism
+
+**?** Trust Author
 
 ## Abstract from  PCTF Glossary**:
 

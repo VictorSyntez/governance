@@ -6,9 +6,9 @@ This repo contains the content resources for the management of the Canadian Cred
 ## Contents
 
 1. Online Governance Framework Docs
-    * [GitHub Pages](https://bedrock-consortium.github.io/bbu-gf/)
-    * [BBU GF Website - Pages Alias](https://bbu.bedrockconsortium.org/)
-2. CanaCred Framework Docs ([PDF Version](https://https://pages.github.com/bedrock-consortium/bbu-gf/raw/master/pdf/bedrock-business-utility-gf.pdf))
+    * [GitHub Pages](https://canacred.github.io/)
+    * [Canacred Website - Pages Alias](https://canacred.ca/)
+2. CanaCred Framework Docs ([PDF Version] - in development
 
 ## Installing MKDocs
 If you have and use a package manager (such as apt-get, dnf, homebrew, yum, chocolatey, etc.) to install packages on your system, then you may want to search for a "MkDocs" package and, if a recent version is available, install it with your package manager (check your system's documentation for details). That's it, you're done! Skip down to Getting Started.
